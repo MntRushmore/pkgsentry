@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Fix: a pinned version looked up shortly before it was published was cached as missing for 24 hours, so the hook kept blocking it after release. Missing versions are now re-checked after 10 minutes.
+
 ## 0.2.0
 
 - **Interactive `pkgsentry setup`.** Animated banner, agent scan, arrow-key picker, a clear list of every file it will touch, and a "try to sneak a package past me" game that uses the real checker. Falls back to the plain flow with `--yes`, `--dry-run`, `--plain`, a named agent, CI, or piped output.

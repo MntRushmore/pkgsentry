@@ -1,6 +1,6 @@
 {
   "name": "pkgsentry",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Stops AI coding agents from installing hallucinated, typosquatted, or malicious packages. CLI + Claude Code hook + MCP server.",
   "keywords": [
     "security",

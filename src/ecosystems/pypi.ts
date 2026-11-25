@@ -1,4 +1,4 @@
-import { DAY_MS } from '../cache.js';
+import { DAY_MS, metaTtl } from '../cache.js';
 import { loadTopList } from '../data.js';
 import { RegistryError } from '../http.js';
 import type { PackageMeta } from '../types.js';
@@ -68,7 +68,7 @@ export const pypi: Ecosystem = {
     const exact = version && EXACT.test(version) ? version.replace(/^v/, '') : undefined;
     return ctx.cache.wrap(
       `pypi:meta:${name}@${exact ?? ''}`,
-      (m: PackageMeta) => (m.exists ? DAY_MS : DAY_MS / 24),
+      metaTtl,
       async () => {
         const res = await ctx.http.getJson<PypiDoc>(`https://pypi.org/pypi/${encodeURIComponent(name)}/json`);
         if (res.status === 404) return { exists: false, name };

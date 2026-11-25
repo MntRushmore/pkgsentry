@@ -209,6 +209,15 @@ describe('.pkgsentry.json', () => {
   });
 });
 
+describe('cache ttl', () => {
+  it('re-checks missing packages and missing versions soon', async () => {
+    const { metaTtl, DAY_MS } = await import('../src/cache.js');
+    expect(metaTtl({ exists: true })).toBe(DAY_MS);
+    expect(metaTtl({ exists: false })).toBe(DAY_MS / 24);
+    expect(metaTtl({ exists: true, versionExists: false })).toBe(10 * 60 * 1000);
+  });
+});
+
 describe('http', () => {
   it('retries once on 429', async () => {
     let n = 0;

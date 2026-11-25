@@ -1,4 +1,4 @@
-import { DAY_MS } from '../cache.js';
+import { DAY_MS, metaTtl } from '../cache.js';
 import { loadTopList } from '../data.js';
 import { RegistryError } from '../http.js';
 import type { PackageMeta } from '../types.js';
@@ -97,7 +97,7 @@ export const npm: Ecosystem = {
     const exact = version && EXACT.test(version) ? version.replace(/^v/, '') : undefined;
     return ctx.cache.wrap(
       `npm:meta:${name}@${exact ?? ''}:${popular ? 'p' : ''}`,
-      (m: PackageMeta) => (m.exists ? DAY_MS : DAY_MS / 24),
+      metaTtl,
       async () => {
         if (popular) {
           // Popular packages can have 50MB+ packuments. Fetch just one manifest.

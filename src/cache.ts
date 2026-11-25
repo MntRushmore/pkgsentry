@@ -5,6 +5,17 @@ import path from 'node:path';
 
 export const DAY_MS = 24 * 60 * 60 * 1000;
 
+/**
+ * How long to trust a metadata lookup. A missing package or a missing pinned version
+ * may be published any minute (registries take a few minutes to propagate a release),
+ * so those are re-checked soon instead of blocking for a day.
+ */
+export function metaTtl(m: { exists: boolean; versionExists?: boolean }): number {
+  if (!m.exists) return DAY_MS / 24;
+  if (m.versionExists === false) return 10 * 60 * 1000;
+  return DAY_MS;
+}
+
 /** Root directory for pkgsentry state. Override with PKGSENTRY_HOME. */
 export function homeDir(): string {
   return process.env.PKGSENTRY_HOME || path.join(os.homedir(), '.pkgsentry');

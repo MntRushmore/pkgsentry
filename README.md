@@ -183,7 +183,7 @@ const results = await createChecker().checkAll(packages);
 
 ## Limitations
 
-- npm and PyPI only for now. Cargo, Go, and RubyGems are [good first issues](docs/good-first-issues.md).
+- npm and PyPI only for now. Cargo, Go, and RubyGems are [good first issues](https://github.com/MntRushmore/pkgsentry/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 - Packages from private registries look nonexistent to pkgsentry. Allowlist them.
 - `npm install` with no arguments (installing from `package.json`) isn't checked yet.
 - Cursor, Windsurf, and Codex enforcement relies on the agent following its rules file. Only the Claude Code hook can block on its own.

@@ -1,0 +1,16 @@
+name: Add an ecosystem
+description: Support another package registry (cargo, go, rubygems, ...)
+labels: [ecosystem, good first issue]
+body:
+  - type: input
+    id: ecosystem
+    attributes:
+      label: Ecosystem
+      placeholder: crates.io
+    validations:
+      required: true
+  - type: textarea
+    id: apis
+    attributes:
+      label: Registry APIs
+      description: Metadata, downloads, and top-package list sources. See CONTRIBUTING.md.

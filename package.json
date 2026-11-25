@@ -1,0 +1,63 @@
+{
+  "name": "pkgsentry",
+  "version": "0.1.0",
+  "description": "Stops AI coding agents from installing hallucinated, typosquatted, or malicious packages. CLI + Claude Code hook + MCP server.",
+  "keywords": [
+    "security",
+    "supply-chain",
+    "typosquatting",
+    "slopsquatting",
+    "npm",
+    "pypi",
+    "mcp",
+    "claude-code",
+    "cursor",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "pkgsentry": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "refresh-top": "node scripts/refresh-top.mjs",
+    "bench": "npm run build && node bench/run.mjs",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build",
+    "version": "node scripts/sync-version.mjs && git add src/version.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.25",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MntRushmore/pkgsentry.git"
+  },
+  "homepage": "https://github.com/MntRushmore/pkgsentry#readme",
+  "bugs": {
+    "url": "https://github.com/MntRushmore/pkgsentry/issues"
+  }
+}

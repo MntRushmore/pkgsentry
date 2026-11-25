@@ -1,0 +1,1449 @@
+{
+  "generated": "2026-11-25",
+  "hallucinationStats": {
+    "claude-sonnet-5-5 round 1 npm": {
+      "suggested": 69,
+      "missing": 0
+    },
+    "claude-haiku-5-5 round 1 npm": {
+      "suggested": 47,
+      "missing": 0
+    },
+    "claude-haiku-5-5 round 2 npm": {
+      "suggested": 133,
+      "missing": 64
+    },
+    "claude-sonnet-5-5 round 2 npm": {
+      "suggested": 156,
+      "missing": 84
+    },
+    "claude-sonnet-5-5 round 1 pypi": {
+      "suggested": 72,
+      "missing": 0
+    },
+    "claude-haiku-5-5 round 1 pypi": {
+      "suggested": 32,
+      "missing": 0
+    },
+    "claude-sonnet-5-5 round 2 pypi": {
+      "suggested": 162,
+      "missing": 62
+    },
+    "claude-haiku-5-5 round 2 pypi": {
+      "suggested": 139,
+      "missing": 62
+    }
+  },
+  "counts": {
+    "npm/popular": 25,
+    "npm/long-tail": 25,
+    "npm/typosquat": 25,
+    "pypi/popular": 25,
+    "pypi/long-tail": 25,
+    "pypi/typosquat": 25,
+    "npm/hallucinated": 25,
+    "pypi/hallucinated": 25
+  },
+  "entries": [
+    {
+      "ecosystem": "npm",
+      "name": "is-weakmap",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@sentry-internal/feedback",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@solana/codecs-core",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "frac",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "map-or-similar",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "array-timsort",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "has-ansi",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "micromark-extension-mdx-expression",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/use-sync-external-store",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "pg-int8",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/plugin-babel",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss-calc",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "esm",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "base64url",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@humanfs/types",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@angular/platform-browser",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "iterator.prototype",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "crypt",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "array-includes",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@tootallnate/once",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "uuid",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@scarf/scarf",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/estree",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@inquirer/ansi",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "data-view-byte-length",
+      "label": "good",
+      "category": "popular",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@datadog/datadog-ci-plugin-sbom",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@cdktf/hcl2json",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@atlaskit/pragmatic-drag-and-drop-hitbox",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimal-polyfills",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/imagemin-optipng",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "yalc",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react-json-view",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "convex",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@stdlib/utils-regexp-from-string",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@chenglou/pretext",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/extract-files",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "falafel",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@shopify/react-native-skia",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@prisma/schema-engine-wasm",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ansi-green",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@material/top-app-bar",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@unhead/dom",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "parse-multipart-data",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "deep-equal-in-any-order",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "remark-message-control",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "commitlint",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "json-to-ast",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@chakra-ui/live-region",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@codemirror/lang-html",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@remotion/streaming",
+      "label": "good",
+      "category": "long-tail",
+      "source": "npm-high-impact@1.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "boxpress",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-16047 (lookalike of express)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "minimst",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-26438 (lookalike of minimist)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "synccft",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-34335 (lookalike of synckit)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "prpo-types",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-30788 (lookalike of prop-types)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qrsapi",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-31048 (lookalike of nwsapi)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "stautses",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-33966 (lookalike of statuses)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "promap",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-30728 (lookalike of p-map)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "procds",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-29677 (lookalike of process)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "perales",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-29060 (lookalike of pirates)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mbjthods",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2022-4516 (lookalike of methods)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "bulebird",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-16332 (lookalike of bluebird)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "cschalk",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-611 (lookalike of chalk)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "autoprafixar",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2026-7213 (lookalike of autoprefixer)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodqwh",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-25515 (lookalike of lodash)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jsonweqjoken",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-23971 (lookalike of jsonwebtoken)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "onetake",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2024-52 (lookalike of onetime)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sfebuffer",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2022-6061 (lookalike of safe-buffer)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "acookie",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2022-826 (lookalike of cookie)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sock-1",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-33588 (lookalike of socks)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "blbird",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2026-11248 (lookalike of bluebird)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "qserver",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2026-11362 (lookalike of semver)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodassh",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-25511 (lookalike of lodash)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "cflash",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-16738 (lookalike of slash)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "commnader",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-17424 (lookalike of commander)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "pathyisabsolute",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2022-5226 (lookalike of path-is-absolute)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "trio-websocket",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "music21",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "sktime",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "attrs",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "typesafe-sdk",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "nvidia-cusolver-cu12",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "sparqlslurper",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "prefect-aws",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "graphifyy",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "miniaudio",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "markitdown",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "asyncer",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "msgspec",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "databricks-mcp",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pylance",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "azure-cosmos",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "vine",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "websocket-client",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "hyperopt",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "wurlitzer",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "oscrypto",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "dlinfo",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "krb5",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "mux-python",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "tuspyserver",
+      "label": "good",
+      "category": "popular",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "antropy",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "todoist-api-python",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "semantic-kernel",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "rply",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "itk-registration",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "acryl-datahub-airflow-plugin",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cli-ui",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "firebird-driver",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "random-slugs",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "geode-explicit",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "mkdocs-include-markdown-plugin",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "dxcam",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyobjc-framework-coretext",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "reacton",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "azureml-dataprep",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "flake8-black",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "judoscale",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "matrx-ai",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyheif",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "localstack",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django-dynamic-preferences",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "shotgun-api3",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "rcsb-api",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "junos-eznc",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "essentia",
+      "label": "good",
+      "category": "long-tail",
+      "source": "top-pypi-packages 2026-11-01 06:41:05"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "websokcets",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2406 (lookalike of websockets)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "httops",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2024-5210 (lookalike of httpx)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "olorama",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-1918 (lookalike of colorama)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "graphex",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-6517 (lookalike of graphene)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "websockeet-client",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2378 (lookalike of websocket-client)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "coloranam",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2024-4942 (lookalike of colorama)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "awsutil",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-192961 (lookalike of psutil)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "xlsxwriiter",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2429 (lookalike of xlsxwriter)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "coloorama",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-1691 (lookalike of colorama)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "termncolor",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-47454 (lookalike of termcolor)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "rrequests-toolbelt",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2194 (lookalike of requests-toolbelt)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyscapes",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2025-41721 (lookalike of pycares)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "scikit-lean",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2211 (lookalike of scikit-learn)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "tarsie",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2024-10463 (lookalike of parse)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "xlxswriter",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2441 (lookalike of xlsxwriter)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "promtp-toolkit",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2011 (lookalike of prompt-toolkit)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requekts",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2024-5877 (lookalike of requests)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "xxlsxwriter",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2444 (lookalike of xlsxwriter)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "webssocket-client",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2411 (lookalike of websocket-client)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "weebsockets",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2414 (lookalike of websockets)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "gipython",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-1857 (lookalike of gitpython)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "yfinancce",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2023-2453 (lookalike of yfinance)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "semverr",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2026-18103 (lookalike of semver)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requestse",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2024-5905 (lookalike of requests)"
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requess",
+      "label": "bad",
+      "category": "typosquat",
+      "source": "MAL-2022-7437 (lookalike of requests)"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "pxweb-js",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Read PX-Web Statistics Finland PxWeb API tables\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "copc-js",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"LAS LiDAR point cloud reader\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "hue-dtls-stream",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Driver for Philips Hue Entertainment streaming over DTLS\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "zendesk-sell-api",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Zendesk Sell CRM API client\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "node-edifact",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Parse EDIFACT electronic data interchange messages\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "dynamixel-servo",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Dynamixel servo motor driver\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "beancount-js",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Parse Beancount ledger files\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "wikidata-sparql-client",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for the Wikidata SPARQL query service with rate limiting\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "node-plausible",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for the Plausible Analytics Stats API\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "node-opensky",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for the OpenSky Network flight tracking API\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "pbf-osm",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"OpenStreetMap PBF file reader\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "onc-api",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for Ocean Networks Canada Oceans 3.0 API\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sentinelhub-js",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Sentinel Hub satellite imagery client\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ordnance-survey-api",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Ordnance Survey data API wrapper\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ableton-link-js",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Control Ableton Link tempo sync from Node\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "next-sanity-turbo",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Next.js plugin for Sanity visual editing with Turborepo\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "pxweb-client",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Read PX-Web Statistics Finland PxWeb API tables\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fhir-client",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"NHS FHIR spine client\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fastify-paddle",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Fastify plugin for Paddle webhook signature verification\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "enip",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"EtherNet/IP CIP industrial protocol driver\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "inky-node",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Drive Pimoroni Inky e-ink displays from Raspberry Pi\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "streamdeck-node",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Driver for Elgato Stream Deck devices\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "bambulab-mqtt",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for Bambu Lab 3D printer MQTT\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "pimoroni-inky",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Drive Pimoroni Inky e-ink displays from Raspberry Pi\""
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eurostat-sdmx",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Eurostat SDMX statistics client\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "valve-keyvalues",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Parse Valve KeyValues VDF files\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "openalex-api",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"OpenAlex scholarly metadata client\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "esri-grid",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"ESRI ASCII grid raster reader\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "ftdi1",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"FTDI USB device EEPROM driver\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "trafikverket-api",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for the Swedish Trafikverket open data API\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "sunshine-conversations",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for Zendesk Sunshine custom objects API\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "tekwfm",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Tektronix WFM waveform file reader\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "kobo-api",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"KoBoToolbox form data client\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "vaisala-serial",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Vaisala weather sensor driver\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyvedirect",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Victron VE.Direct device driver\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "root-reader",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"ROOT histogram file reader\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "blpapi",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Read Bloomberg BLPAPI market data\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "dfraw-parser",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Parse Dwarf Fortress raw files\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "readstat",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Read Stata DTA statistical files\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "minimal-mastodon",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for the Mastodon streaming API\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "europeana",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Europeana cultural heritage API client\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "kicad-parser",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Read KiCad schematic S-expression files\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "libcomcat",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for the USGS Earthquake Catalog FDSN service\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "horizons-api",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Client for the NASA JPL Horizons ephemeris system\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "appstoreserverlibrary",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Verify Apple App Store Server Notifications V2 JWS\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django-htmx-allauth",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Django plus HTMX plus allauth integration\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "django-allauth-htmx",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Django plus HTMX plus allauth integration\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pysartorius",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Sartorius lab balance serial driver\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "stata-dta",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-sonnet-5-5 round 2: \"Read Stata DTA statistical files\""
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "gaussian-parser",
+      "label": "bad",
+      "category": "hallucinated",
+      "source": "claude-haiku-5-5 round 2: \"Gaussian quantum chemistry output reader\""
+    }
+  ]
+}

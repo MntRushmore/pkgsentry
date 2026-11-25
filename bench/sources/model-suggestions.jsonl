@@ -1,0 +1,906 @@
+{"ecosystem": "npm", "task": "read EXIF metadata from JPEG photos", "package": "exifr", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "read HDF5 scientific data files in the browser via WebAssembly", "package": "h5wasm", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse iCalendar (.ics) event recurrence rules", "package": "ical.js", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate QR codes as PNG or SVG", "package": "qrcode", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse and serialize TOML config files", "package": "smol-toml", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "render Markdown with ANSI colors in the terminal", "package": "marked-terminal", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "compute Levenshtein edit distance between strings", "package": "fast-levenshtein", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "read and write MIDI files", "package": "midi-file", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "read Apache Parquet files in pure JavaScript", "package": "hyparquet", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "create ZIP archives with streaming output", "package": "archiver", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert XML documents to JSON objects", "package": "fast-xml-parser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert CSV text to JSON arrays", "package": "csvtojson", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate PDF documents programmatically", "package": "pdfkit", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert .docx documents to HTML", "package": "mammoth", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "read and write Excel spreadsheets", "package": "xlsx", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "probabilistic set membership with Bloom filters", "package": "bloom-filters", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "consistent hashing ring for node assignment", "package": "hashring", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse cron expressions and compute next run times", "package": "cron-parser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "encode and decode Protocol Buffers messages", "package": "protobufjs", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "fast MessagePack serialization", "package": "msgpackr", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert Markdown files to PDF", "package": "md-to-pdf", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "resize and convert images with libvips", "package": "sharp", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "read ESRI shapefiles into GeoJSON", "package": "shapefile", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse NMEA GPS sentences from serial output", "package": "nmea-simple", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert between measurement units", "package": "convert-units", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate and parse ULIDs", "package": "ulid", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate RFC 9562 UUIDs including v7", "package": "uuid", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "compute text diffs between two strings", "package": "diff", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "fuzzy search over an in-memory list of objects", "package": "fuse.js", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "schedule recurring jobs with cron syntax in-process", "package": "node-cron", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "rate limit calls with a token bucket", "package": "limiter", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse and stringify YAML documents", "package": "yaml", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse INI configuration files", "package": "ini", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate barcodes of many symbologies", "package": "bwip-js", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "read audio metadata and ID3 tags", "package": "music-metadata", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse and format SRT subtitle files", "package": "subtitle", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "split and recombine secrets with Shamir secret sharing", "package": "shamirs-secret-sharing", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse vCard contact files", "package": "vcard-parser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert HTML to formatted plain text", "package": "html-to-text", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "sanitize untrusted HTML against XSS", "package": "sanitize-html", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse browser user-agent strings", "package": "ua-parser-js", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "encode and decode geohashes", "package": "ngeohash", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "compute distances and bounds between geographic coordinates", "package": "geolib", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse natural-language dates like next Friday at 3pm", "package": "chrono-node", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "pluralize and singularize English words", "package": "pluralize", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert strings into URL-safe slugs", "package": "slugify", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate realistic fake test data", "package": "@faker-js/faker", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse and walk CSS abstract syntax trees", "package": "css-tree", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse Dockerfiles into an AST", "package": "dockerfile-ast", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse SQL statements across several dialects", "package": "node-sql-parser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "render Mermaid diagrams to SVG or PNG from the command line", "package": "@mermaid-js/mermaid-cli", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "read and write Apache Arrow tables", "package": "apache-arrow", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "run Lua scripts inside JavaScript", "package": "fengari", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse and validate chess PGN games", "package": "chess.js", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse BibTeX bibliography entries", "package": "@retorquere/bibtex-parser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "convert and manipulate colors across color spaces", "package": "colorjs.io", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "fetch and parse RSS feeds", "package": "rss-parser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "validate and dereference OpenAPI specifications", "package": "@apidevtools/swagger-parser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate TypeScript types from JSON Schema", "package": "json-schema-to-typescript", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "validate data against JSON Schema", "package": "ajv", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "sign and verify JSON Web Tokens", "package": "jsonwebtoken", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "hash passwords with bcrypt in pure JavaScript", "package": "bcryptjs", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "authenticated encryption with libsodium", "package": "libsodium-wrappers", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "trigger macOS text-to-speech from Node", "package": "say", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "run git operations in pure JavaScript without the git binary", "package": "isomorphic-git", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "compute Jaro-Winkler string similarity", "package": "jaro-winkler", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "compute perceptual block hashes of images", "package": "blockhash-core", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "generate Open Graph social preview images", "package": "@vercel/og", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "send Web Push notifications with VAPID keys", "package": "web-push", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "parse multipart form uploads in streams", "package": "busboy", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and write iCalendar files", "package": "icalendar", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse GPX GPS track files", "package": "gpxpy", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read DICOM medical imaging files", "package": "pydicom", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read NetCDF climate datasets", "package": "netCDF4", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and write HDF5 files with numpy arrays", "package": "h5py", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and write Apache Parquet files", "package": "pyarrow", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read EXIF tags from images", "package": "exifread", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "generate QR codes", "package": "qrcode", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "generate 1D barcodes as SVG or PNG", "package": "python-barcode", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and write MIDI files", "package": "mido", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "audio feature extraction and pitch tracking", "package": "librosa", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read FITS astronomy image files", "package": "astropy", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse PDB protein structure files", "package": "biopython", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse SMILES and compute molecular descriptors", "package": "rdkit", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and spatially join shapefiles with pandas", "package": "geopandas", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "reproject coordinates between coordinate systems", "package": "pyproj", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse NMEA GPS sentences", "package": "pynmea2", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "symbolic algebra and equation solving", "package": "sympy", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "fast fuzzy string matching", "package": "rapidfuzz", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "compute Jaro-Winkler and Soundex phonetic codes", "package": "jellyfish", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse and validate international phone numbers", "package": "phonenumbers", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse user-agent strings into device and browser fields", "package": "user-agents", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse natural-language and multilingual date strings", "package": "dateparser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "format numbers and durations in human-readable form", "package": "humanize", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "compute next run times for cron expressions", "package": "croniter", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "generate URL slugs from unicode text", "package": "python-slugify", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "pluralize words and convert numbers to words", "package": "inflect", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "render CommonMark Markdown to HTML", "package": "markdown-it-py", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "render HTML and CSS to PDF", "package": "weasyprint", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "round-trip YAML while preserving comments", "package": "ruamel.yaml", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse TOML files", "package": "tomli", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "validate documents against JSON Schema", "package": "jsonschema", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "generate fake names, addresses and records", "package": "faker", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse and scrape HTML documents", "package": "beautifulsoup4", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "extract text and tables from PDF files", "package": "pdfplumber", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and write Word .docx files", "package": "python-docx", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and write Excel xlsx files", "package": "openpyxl", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "write Excel files with native charts", "package": "xlsxwriter", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "scalable Bloom filters", "package": "pybloom-live", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "consistent hashing ring", "package": "hash_ring", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "rate limiting with pluggable storage backends", "package": "limits", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "retry functions with exponential backoff", "package": "tenacity", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "graph algorithms and topological sorting", "package": "networkx", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "solve SAT problems with picosat bindings", "package": "pycosat", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "solve constraint programming and routing problems", "package": "ortools", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "formulate and solve linear programs", "package": "pulp", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Shamir secret sharing over finite fields", "package": "secretsharing", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "hash passwords with Argon2", "package": "argon2-cffi", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "sign and verify JSON Web Tokens", "package": "PyJWT", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "symmetric encryption with Fernet and X.509 handling", "package": "cryptography", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "compute perceptual hashes of images", "package": "imagehash", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "open, resize and convert raster images", "package": "Pillow", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "run OCR on images via Tesseract", "package": "pytesseract", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "offline speech recognition", "package": "vosk", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse RSS and Atom feeds", "package": "feedparser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "fast HTML parsing with CSS selectors", "package": "selectolax", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse robots.txt exclusion rules", "package": "robotexclusionrulesparser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read and write WARC web archive files", "package": "warcio", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "craft and send network packets", "package": "scapy", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "read PCAP capture files", "package": "dpkt", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "generate Python classes for Protocol Buffers", "package": "protobuf", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "serialize data as MessagePack", "package": "msgpack", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "encode and decode BSON documents", "package": "pymongo", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse and convert LaTeX source", "package": "pylatexenc", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "parse BibTeX bibliography files", "package": "bibtexparser", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "convert and compare colors in perceptual color spaces", "package": "colormath", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "build 2D games with SDL bindings", "package": "pygame", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "create interactive Sankey and charts", "package": "plotly", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "time series forecasting with trend and seasonality", "package": "prophet", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "outlier detection with many anomaly models", "package": "pyod", "model": "claude-haiku-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse and generate iCalendar (.ics) files", "package": "ical.js", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Read and write Excel xlsx files with streaming", "package": "exceljs", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse DBF (dBase) files", "package": "shapefile", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Convert HTML to Markdown", "package": "turndown", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Generate PDF invoices from code", "package": "pdfkit", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse PDF text content", "package": "pdf-parse", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Validate JSON against JSON Schema", "package": "ajv", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Runtime type validation with TypeScript inference", "package": "zod", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse command line arguments with subcommands", "package": "commander", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Generate QR codes as SVG", "package": "qrcode", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse EXIF metadata from JPEG images", "package": "exifr", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Resize and convert images", "package": "sharp", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse and format cron expressions into human text", "package": "cronstrue", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Schedule cron jobs in Node", "package": "node-cron", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Fuzzy string search", "package": "fuse.js", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Compute Levenshtein distance", "package": "fast-levenshtein", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse and manipulate semver versions", "package": "semver", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse user agent strings", "package": "ua-parser-js", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Job queue backed by Redis", "package": "bullmq", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse GeoTIFF raster files", "package": "geotiff", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Convert between GeoJSON and TopoJSON", "package": "topojson-client", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Geospatial operations like buffer and intersect on GeoJSON", "package": "@turf/turf", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse Protocol Buffers definitions dynamically", "package": "protobufjs", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Encode and decode MessagePack", "package": "@msgpack/msgpack", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse CSV streams", "package": "csv-parse", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse YAML preserving comments", "package": "yaml", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse TOML configuration files", "package": "smol-toml", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse MIDI files", "package": "@tonejs/midi", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Read ID3 tags from MP3 files", "package": "music-metadata", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse SRT subtitle files", "package": "subtitle", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Run FFmpeg from Node with a fluent API", "package": "fluent-ffmpeg", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Generate sitemap.xml", "package": "sitemap", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse RSS and Atom feeds", "package": "rss-parser", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Sanitize HTML against XSS", "package": "dompurify", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Hash passwords with Argon2", "package": "argon2", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Sign and verify JWTs with modern JOSE support", "package": "jose", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Generate TOTP two-factor codes", "package": "otpauth", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "WebAuthn passkey server verification", "package": "@simplewebauthn/server", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Rate limit Express requests", "package": "express-rate-limit", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Generate OpenAPI docs from Fastify routes", "package": "@fastify/swagger", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Type-safe end-to-end RPC between client and server", "package": "@trpc/server", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse GraphQL queries into AST", "package": "graphql", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Mock HTTP requests in tests", "package": "msw", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Record and replay HTTP in tests", "package": "nock", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Headless browser PDF rendering", "package": "puppeteer", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse HTML and query with CSS selectors server-side", "package": "cheerio", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Diff two JSON documents", "package": "jsondiffpatch", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Apply JSON Patch RFC 6902", "package": "fast-json-patch", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Text diff with unified patch output", "package": "diff", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse Markdown to AST", "package": "mdast-util-from-markdown", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Syntax highlighting with TextMate grammars", "package": "shiki", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse TypeScript AST and transform code", "package": "ts-morph", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Generate JSON Schema from TypeScript types", "package": "ts-json-schema-generator", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Pretty-print durations like 1h 5m", "package": "pretty-ms", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse human-readable dates from natural language", "package": "chrono-node", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Time zone aware date handling", "package": "luxon", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Money arithmetic without float errors", "package": "dinero.js", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Arbitrary precision decimal math", "package": "decimal.js", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Validate IBAN numbers", "package": "ibantools", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse and format phone numbers", "package": "libphonenumber-js", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Detect language of text", "package": "franc", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Slugify strings with unicode support", "package": "@sindresorhus/slugify", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Generate fake data for tests", "package": "@faker-js/faker", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Connect to MQTT broker", "package": "mqtt", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Talk to Modbus devices over serial", "package": "modbus-serial", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Read serial port data from Arduino", "package": "serialport", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse NMEA GPS sentences", "package": "nmea-simple", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Implement a Bloom filter", "package": "bloom-filters", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Spatial index R-tree for bounding boxes", "package": "rbush", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Voronoi diagrams and Delaunay triangulation", "package": "d3-delaunay", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Compress with Brotli streaming or zstd", "package": "@mongodb-js/zstd", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Read and write ZIP archives", "package": "jszip", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Parse tar archives as stream", "package": "tar-stream", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse iCalendar files", "package": "icalendar", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read and write Excel files with formatting", "package": "openpyxl", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read DBF dBase files", "package": "dbfread", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Convert HTML to Markdown", "package": "markdownify", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Extract text from PDFs with layout", "package": "pdfplumber", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Generate PDF reports", "package": "reportlab", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Validate data models with type hints", "package": "pydantic", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Validate JSON Schema", "package": "jsonschema", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Build command line interfaces from type hints", "package": "typer", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Generate QR codes", "package": "qrcode", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read EXIF metadata from images", "package": "exifread", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Image processing and resizing", "package": "pillow", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse cron expressions and compute next run", "package": "croniter", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Fuzzy string matching", "package": "rapidfuzz", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse and compare PEP 440 versions", "package": "packaging", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse user agent strings", "package": "user-agents", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Distributed task queue", "package": "celery", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read GeoTIFF rasters", "package": "rasterio", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Geometry operations on shapes", "package": "shapely", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read and write geospatial vector files", "package": "fiona", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Reproject coordinates between CRSs", "package": "pyproj", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Dataframes with lazy evaluation", "package": "polars", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read Parquet files", "package": "pyarrow", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Query files with SQL in process", "package": "duckdb", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read HDF5 files", "package": "h5py", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read NetCDF climate data", "package": "netCDF4", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Labeled multi-dimensional arrays", "package": "xarray", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse Protocol Buffers", "package": "protobuf", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Encode and decode MessagePack", "package": "msgpack", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse TOML files", "package": "tomli", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Round-trip YAML preserving comments", "package": "ruamel.yaml", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read MIDI files", "package": "mido", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read audio tags from MP3 and FLAC", "package": "mutagen", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Audio analysis and feature extraction", "package": "librosa", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse SRT subtitles", "package": "srt", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse RSS and Atom feeds", "package": "feedparser", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "HTML parsing and scraping", "package": "beautifulsoup4", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Browser automation", "package": "playwright", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Async HTTP client", "package": "httpx", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Mock HTTP in tests for requests", "package": "responses", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Record HTTP interactions for tests", "package": "vcrpy", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Property-based testing", "package": "hypothesis", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Generate fake data", "package": "faker", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Hash passwords with Argon2", "package": "argon2-cffi", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Sign and verify JWTs", "package": "pyjwt", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Generate TOTP codes", "package": "pyotp", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse phone numbers", "package": "phonenumbers", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Detect language of text", "package": "langdetect", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Slugify strings", "package": "python-slugify", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Natural language date parsing", "package": "dateparser", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Time zone handling", "package": "pendulum", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Money and currency arithmetic", "package": "py-moneyed", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Connect to MQTT broker", "package": "paho-mqtt", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Talk to Modbus devices", "package": "pymodbus", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read serial ports", "package": "pyserial", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse NMEA GPS sentences", "package": "pynmea2", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Bloom filter implementation", "package": "pybloom-live", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Graph algorithms and network analysis", "package": "networkx", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Constraint solving and linear programming", "package": "ortools", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Solve SAT problems", "package": "python-sat", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Symbolic mathematics", "package": "sympy", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Probabilistic data structures like HyperLogLog", "package": "datasketch", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Nearest neighbor search on vectors", "package": "faiss-cpu", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Time series forecasting", "package": "statsmodels", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse Python source into concrete syntax tree", "package": "libcst", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse source code with tree-sitter", "package": "tree-sitter", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Interact with SQL databases via ORM", "package": "sqlalchemy", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Database migrations", "package": "alembic", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read and write Word docx files", "package": "python-docx", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Read and write PowerPoint files", "package": "python-pptx", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse Windows registry hive files", "package": "python-registry", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Parse pcap network captures", "package": "scapy", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "SSH client automation", "package": "paramiko", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Interact with Docker engine", "package": "docker", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Interact with AWS services", "package": "boto3", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Terminal rich text and tables", "package": "rich", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Retry with exponential backoff", "package": "tenacity", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "pypi", "task": "Data validation for dataframes", "package": "pandera", "model": "claude-sonnet-5-5", "round": 1}
+{"ecosystem": "npm", "task": "Zoho Books accounting API client", "package": "zoho-books-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Zoho Books accounting API client", "package": "zoho-books", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Zoho Books accounting API client", "package": "node-zoho-books", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Modbus TCP driver for PLCs", "package": "modbus-serial", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Modbus TCP driver for PLCs", "package": "jsmodbus", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Modbus TCP driver for PLCs", "package": "modbus-tcp", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Garmin FIT binary file parser", "package": "fit-file-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Garmin FIT binary file parser", "package": "garmin-fit", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Garmin FIT binary file parser", "package": "fitparser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Wahoo fitness cloud API client", "package": "wahoo-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Wahoo fitness cloud API client", "package": "wahoo-fitness", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Wahoo fitness cloud API client", "package": "node-wahoo", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Gerber RS-274X PCB file parser", "package": "gerber-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Gerber RS-274X PCB file parser", "package": "gerber-to-svg", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Gerber RS-274X PCB file parser", "package": "tracespace", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Eurostat SDMX statistics client", "package": "eurostat-sdmx", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Eurostat SDMX statistics client", "package": "sdmx-json", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Eurostat SDMX statistics client", "package": "eurostat-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Bluetooth LE heart rate monitor driver", "package": "heart-rate-monitor", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Bluetooth LE heart rate monitor driver", "package": "noble", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Bluetooth LE heart rate monitor driver", "package": "ble-heart-rate", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Apple binary plist parser", "package": "bplist-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Apple binary plist parser", "package": "plist", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Apple binary plist parser", "package": "simple-plist", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Canvas LMS REST API client", "package": "canvas-lms-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Canvas LMS REST API client", "package": "canvas-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Canvas LMS REST API client", "package": "node-canvas-lms", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NOAA weather data API wrapper", "package": "noaa-weather", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NOAA weather data API wrapper", "package": "noaa-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NOAA weather data API wrapper", "package": "weather-noaa", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Next.js plus Prisma plus Zod integration plugin", "package": "next-prisma-zod", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Next.js plus Prisma plus Zod integration plugin", "package": "zod-prisma-types", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Next.js plus Prisma plus Zod integration plugin", "package": "prisma-zod-generator", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Dynamixel servo motor driver", "package": "dynamixel-sdk", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Dynamixel servo motor driver", "package": "dynamixel-servo", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Dynamixel servo motor driver", "package": "dynamixel-js", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ESRI shapefile reader", "package": "shapefile", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ESRI shapefile reader", "package": "shpjs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ESRI shapefile reader", "package": "shapefile-js", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Toggl Track time tracking API client", "package": "toggl-track", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Toggl Track time tracking API client", "package": "toggl-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Toggl Track time tracking API client", "package": "node-toggl-track", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "EDIFACT EDI message parser", "package": "edifact", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "EDIFACT EDI message parser", "package": "edi-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "EDIFACT EDI message parser", "package": "node-edifact", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Kitsu anime database API client", "package": "kitsu", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Kitsu anime database API client", "package": "kitsu-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Kitsu anime database API client", "package": "kitsu-client", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "DICOM medical image header parser", "package": "dicom-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "DICOM medical image header parser", "package": "dicom", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "DICOM medical image header parser", "package": "dcmjs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NHS FHIR spine client", "package": "nhs-fhir", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NHS FHIR spine client", "package": "fhir-client", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NHS FHIR spine client", "package": "node-fhir-nhs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "USGS earthquake GeoJSON feed wrapper", "package": "usgs-earthquakes", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "USGS earthquake GeoJSON feed wrapper", "package": "usgs-quake", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "USGS earthquake GeoJSON feed wrapper", "package": "earthquake-feed", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ASS/SSA subtitle file parser", "package": "ass-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ASS/SSA subtitle file parser", "package": "ass-compiler", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ASS/SSA subtitle file parser", "package": "subtitle-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Freshdesk helpdesk API client", "package": "freshdesk-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Freshdesk helpdesk API client", "package": "freshdesk", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Freshdesk helpdesk API client", "package": "node-freshdesk", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Philips Hue bridge driver", "package": "node-hue-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Philips Hue bridge driver", "package": "hue-bridge", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Philips Hue bridge driver", "package": "huejay", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "OpenStreetMap PBF file reader", "package": "osm-pbf-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "OpenStreetMap PBF file reader", "package": "pbf-osm", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "OpenStreetMap PBF file reader", "package": "osmium", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Harvest time tracking API client", "package": "harvest-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Harvest time tracking API client", "package": "harvest", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Harvest time tracking API client", "package": "node-harvest", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "EtherNet/IP CIP industrial protocol driver", "package": "ethernet-ip", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "EtherNet/IP CIP industrial protocol driver", "package": "node-ethernet-ip", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "EtherNet/IP CIP industrial protocol driver", "package": "enip", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Mautic marketing automation API client", "package": "mautic", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Mautic marketing automation API client", "package": "mautic-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Mautic marketing automation API client", "package": "node-mautic", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Nuxt plus Pinia persisted state plugin", "package": "@pinia-plugin-persistedstate/nuxt", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Nuxt plus Pinia persisted state plugin", "package": "nuxt-pinia-persist", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Nuxt plus Pinia persisted state plugin", "package": "pinia-plugin-persist", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "MIDI SysEx message parser", "package": "midi-sysex", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "MIDI SysEx message parser", "package": "midi-file", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "MIDI SysEx message parser", "package": "midi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Zendesk Sell CRM API client", "package": "zendesk-sell", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Zendesk Sell CRM API client", "package": "zendesk-sell-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Zendesk Sell CRM API client", "package": "node-zendesk-sell", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Arduino Firmata board driver", "package": "firmata", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Arduino Firmata board driver", "package": "johnny-five", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Arduino Firmata board driver", "package": "arduino-firmata", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NetCDF climate data reader", "package": "netcdf-reader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NetCDF climate data reader", "package": "netcdfjs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "NetCDF climate data reader", "package": "node-netcdf", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Sentinel Hub satellite imagery client", "package": "sentinelhub-js", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Sentinel Hub satellite imagery client", "package": "@sentinel-hub/sentinelhub-js", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Sentinel Hub satellite imagery client", "package": "sentinel-hub", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "UK Companies House API wrapper", "package": "companies-house", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "UK Companies House API wrapper", "package": "companies-house-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "UK Companies House API wrapper", "package": "node-companies-house", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Matroska MKV container parser", "package": "matroska-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Matroska MKV container parser", "package": "matroska-js", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Matroska MKV container parser", "package": "ebml", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Xero accounting API client", "package": "xero-node", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Xero accounting API client", "package": "xero-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Xero accounting API client", "package": "node-xero", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ELM327 OBD-II adapter driver", "package": "elm327", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ELM327 OBD-II adapter driver", "package": "obd2-reader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ELM327 OBD-II adapter driver", "package": "node-obd", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ICS iCalendar file parser", "package": "ical.js", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ICS iCalendar file parser", "package": "node-ical", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "ICS iCalendar file parser", "package": "ics", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Wikidata SPARQL endpoint client", "package": "wikidata-sdk", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Wikidata SPARQL endpoint client", "package": "wikibase-sdk", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Wikidata SPARQL endpoint client", "package": "wikidata-query", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Nordic nRF BLE UART driver", "package": "nordic-uart", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Nordic nRF BLE UART driver", "package": "noble-uart", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Nordic nRF BLE UART driver", "package": "nrf-ble", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Tiled TMX map file parser", "package": "tmx-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Tiled TMX map file parser", "package": "tiled-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Tiled TMX map file parser", "package": "tmx-map", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "PagerDuty incidents API client", "package": "pagerduty", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "PagerDuty incidents API client", "package": "node-pagerduty", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "PagerDuty incidents API client", "package": "pagerduty-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Express plus tRPC plus OpenAPI plugin", "package": "trpc-openapi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Express plus tRPC plus OpenAPI plugin", "package": "express-trpc-openapi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Express plus tRPC plus OpenAPI plugin", "package": "trpc-express-docs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Bitbucket Server REST API client", "package": "bitbucket", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Bitbucket Server REST API client", "package": "bitbucket-server-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Bitbucket Server REST API client", "package": "node-bitbucket-server", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "SMPTE timecode and EDL file parser", "package": "edl-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "SMPTE timecode and EDL file parser", "package": "smpte-timecode", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "SMPTE timecode and EDL file parser", "package": "timecode-edl", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Crossref DOI metadata client", "package": "crossref-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Crossref DOI metadata client", "package": "crossref", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Crossref DOI metadata client", "package": "node-crossref", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Shelly smart relay driver", "package": "shelly-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Shelly smart relay driver", "package": "shelly-iot", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Shelly smart relay driver", "package": "node-shelly", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "LAS LiDAR point cloud reader", "package": "las-reader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "LAS LiDAR point cloud reader", "package": "copc-js", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "LAS LiDAR point cloud reader", "package": "laz-perf", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Discogs music database client", "package": "disconnect", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Discogs music database client", "package": "disconnect-discogs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Discogs music database client", "package": "discogs-client", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Ordnance Survey data API wrapper", "package": "ordnance-survey", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Ordnance Survey data API wrapper", "package": "os-data-hub", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Ordnance Survey data API wrapper", "package": "ordnance-survey-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Victron VE.Direct device driver", "package": "victron-vedirect", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Victron VE.Direct device driver", "package": "vedirect", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Victron VE.Direct device driver", "package": "pyvedirect", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ISO 19115 geospatial metadata parser", "package": "iso19115", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ISO 19115 geospatial metadata parser", "package": "pycsw", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ISO 19115 geospatial metadata parser", "package": "owslib", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Clockify time tracking API client", "package": "clockify", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Clockify time tracking API client", "package": "pyclockify", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Clockify time tracking API client", "package": "clockify-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Bruker NMR spectrum reader", "package": "nmrglue", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Bruker NMR spectrum reader", "package": "brukerapi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Bruker NMR spectrum reader", "package": "pybruker", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Vaisala weather sensor driver", "package": "pyvaisala", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Vaisala weather sensor driver", "package": "vaisala-serial", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Vaisala weather sensor driver", "package": "pywxsensor", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Garmin TCX training file parser", "package": "tcxparser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Garmin TCX training file parser", "package": "python-tcxparser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Garmin TCX training file parser", "package": "garmin-tcx", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ERCOT Texas grid data client", "package": "gridstatus", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ERCOT Texas grid data client", "package": "ercot-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ERCOT Texas grid data client", "package": "pyercot", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ECMWF MARS archive wrapper", "package": "ecmwf-api-client", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ECMWF MARS archive wrapper", "package": "cdsapi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ECMWF MARS archive wrapper", "package": "ecmwf-mars", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Gaussian quantum chemistry output reader", "package": "cclib", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Gaussian quantum chemistry output reader", "package": "pygaussian", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Gaussian quantum chemistry output reader", "package": "gaussian-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Thorlabs optical power meter driver", "package": "thorlabs-pm100", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Thorlabs optical power meter driver", "package": "ThorlabsPM100", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Thorlabs optical power meter driver", "package": "pythorlabs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "SAS7BDAT binary dataset reader", "package": "sas7bdat", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "SAS7BDAT binary dataset reader", "package": "pandas-sas", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "SAS7BDAT binary dataset reader", "package": "sas7bdat-reader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Zotero reference library API client", "package": "pyzotero", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Zotero reference library API client", "package": "zotero", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Zotero reference library API client", "package": "zotero-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Keysight oscilloscope control over VISA", "package": "pyvisa", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Keysight oscilloscope control over VISA", "package": "keysight-scope", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Keysight oscilloscope control over VISA", "package": "pymeasure", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "GRIB weather forecast file reader", "package": "cfgrib", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "GRIB weather forecast file reader", "package": "pygrib", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "GRIB weather forecast file reader", "package": "xarray-grib", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "OpenAlex scholarly metadata client", "package": "pyalex", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "OpenAlex scholarly metadata client", "package": "openalex", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "OpenAlex scholarly metadata client", "package": "openalex-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "LabVIEW TDMS file reader", "package": "npTDMS", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "LabVIEW TDMS file reader", "package": "tdmsreader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "LabVIEW TDMS file reader", "package": "nptdms", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Space-Track orbital data client", "package": "spacetrack", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Space-Track orbital data client", "package": "space-track", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Space-Track orbital data client", "package": "pyspacetrack", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Modbus RTU serial driver", "package": "pymodbus", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Modbus RTU serial driver", "package": "minimalmodbus", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Modbus RTU serial driver", "package": "modbus-rtu", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ADCP current profiler data reader", "package": "adcpy", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ADCP current profiler data reader", "package": "oceans", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ADCP current profiler data reader", "package": "pyadcp", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ArcGIS REST services client", "package": "arcgis", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ArcGIS REST services client", "package": "arcgis-rest", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ArcGIS REST services client", "package": "esridump", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Rigaku XRD raw diffraction file reader", "package": "xrayutilities", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Rigaku XRD raw diffraction file reader", "package": "pyxrd", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Rigaku XRD raw diffraction file reader", "package": "rigaku-raw", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Jira Assets Insight client", "package": "jira-assets", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Jira Assets Insight client", "package": "pyjira-insight", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Jira Assets Insight client", "package": "atlassian-python-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "OAI-PMH Dublin Core harvester", "package": "sickle", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "OAI-PMH Dublin Core harvester", "package": "oaiharvest", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "OAI-PMH Dublin Core harvester", "package": "pyoai", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "PubChem PUG REST client", "package": "pubchempy", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "PubChem PUG REST client", "package": "pubchem", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "PubChem PUG REST client", "package": "pypubchem", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ABIF DNA sequencing trace reader", "package": "abifpy", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ABIF DNA sequencing trace reader", "package": "Bio", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ABIF DNA sequencing trace reader", "package": "pyabif", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Raspberry Pi DHT22 sensor driver", "package": "Adafruit_DHT", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Raspberry Pi DHT22 sensor driver", "package": "adafruit-circuitpython-dht", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Raspberry Pi DHT22 sensor driver", "package": "dht22", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "KoBoToolbox form data client", "package": "kobo-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "KoBoToolbox form data client", "package": "pykobo", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "KoBoToolbox form data client", "package": "kobotoolbox", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Liberty cell library .lib parser", "package": "pyliberty", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Liberty cell library .lib parser", "package": "liberty-parser", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Liberty cell library .lib parser", "package": "libparse", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Ergast F1 racing data client", "package": "fastf1", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Ergast F1 racing data client", "package": "pyergast", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Ergast F1 racing data client", "package": "ergast-py", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Bosch BME280 environmental sensor driver", "package": "RPi.bme280", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Bosch BME280 environmental sensor driver", "package": "bme280", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Bosch BME280 environmental sensor driver", "package": "adafruit-circuitpython-bme280", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "EnergyPlus IDF building model parser", "package": "eppy", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "EnergyPlus IDF building model parser", "package": "energyplus-idf", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "EnergyPlus IDF building model parser", "package": "pyidf", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ORCID researcher profile client", "package": "orcid", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ORCID researcher profile client", "package": "pyorcid", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ORCID researcher profile client", "package": "orcid-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ADS-B SBS1 aircraft feed driver", "package": "pyModeS", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ADS-B SBS1 aircraft feed driver", "package": "sbs1", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ADS-B SBS1 aircraft feed driver", "package": "adsb-sbs", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "MODFLOW groundwater model output reader", "package": "flopy", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "MODFLOW groundwater model output reader", "package": "modflow-reader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "MODFLOW groundwater model output reader", "package": "pymodflow", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "US Census Bureau data API client", "package": "census", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "US Census Bureau data API client", "package": "us", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "US Census Bureau data API client", "package": "censusdata", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Tektronix WFM waveform file reader", "package": "tekwfm", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Tektronix WFM waveform file reader", "package": "pytektronix", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Tektronix WFM waveform file reader", "package": "wfm-reader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "NASA ADS astrophysics data client", "package": "ads", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "NASA ADS astrophysics data client", "package": "adsapi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "NASA ADS astrophysics data client", "package": "python-ads", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Sartorius lab balance serial driver", "package": "sartorius-balance", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Sartorius lab balance serial driver", "package": "pyserial", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Sartorius lab balance serial driver", "package": "pysartorius", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ESRI ASCII grid raster reader", "package": "rasterio", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ESRI ASCII grid raster reader", "package": "ascii-grid", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ESRI ASCII grid raster reader", "package": "esri-grid", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Open Power System Data client", "package": "opsd", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Open Power System Data client", "package": "open-power-data", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Open Power System Data client", "package": "pyopsd", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Django plus HTMX plus allauth integration", "package": "django-htmx", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Django plus HTMX plus allauth integration", "package": "django-allauth-htmx", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Django plus HTMX plus allauth integration", "package": "django-htmx-allauth", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Lichess chess API client", "package": "berserk", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Lichess chess API client", "package": "lichess-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Lichess chess API client", "package": "pylichess", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "WARC web archive file reader", "package": "warcio", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "WARC web archive file reader", "package": "warc", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "WARC web archive file reader", "package": "fastwarc", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "CKAN open data portal client", "package": "ckanapi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "CKAN open data portal client", "package": "ckan-client", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "CKAN open data portal client", "package": "pyckan", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Tethered DSLR camera control via gphoto2", "package": "gphoto2", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Tethered DSLR camera control via gphoto2", "package": "python-gphoto2", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Tethered DSLR camera control via gphoto2", "package": "pygphoto2", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Cisco IOS configuration file parser", "package": "ciscoconfparse", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Cisco IOS configuration file parser", "package": "textfsm", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Cisco IOS configuration file parser", "package": "ciscoconfparse2", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "FHIR R4 server client", "package": "fhirclient", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "FHIR R4 server client", "package": "fhir.resources", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "FHIR R4 server client", "package": "fhir-py", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ROOT histogram file reader", "package": "uproot", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ROOT histogram file reader", "package": "root-reader", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "ROOT histogram file reader", "package": "pyroot-io", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Europeana cultural heritage API client", "package": "europeana", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Europeana cultural heritage API client", "package": "pyeuropeana", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Europeana cultural heritage API client", "package": "europeana-api", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "FTDI USB device EEPROM driver", "package": "pyftdi", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "FTDI USB device EEPROM driver", "package": "ftdi1", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "FTDI USB device EEPROM driver", "package": "libftdi-py", "model": "claude-haiku-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hetzner Robot dedicated server API", "package": "hetzner-robot-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hetzner Robot dedicated server API", "package": "node-hetzner-robot", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hetzner Robot dedicated server API", "package": "hrobot-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Garmin FIT activity files", "package": "fit-file-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Garmin FIT activity files", "package": "garmin-fit", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Garmin FIT activity files", "package": "fit-decoder", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Elgato Stream Deck devices", "package": "@elgato-stream-deck/node", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Elgato Stream Deck devices", "package": "elgato-stream-deck", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Elgato Stream Deck devices", "package": "streamdeck-node", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read NOAA GFS GRIB2 weather files", "package": "grib2-simple", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read NOAA GFS GRIB2 weather files", "package": "grib2-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read NOAA GFS GRIB2 weather files", "package": "node-grib2", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the USGS Earthquake Catalog FDSN service", "package": "usgs-earthquakes", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the USGS Earthquake Catalog FDSN service", "package": "fdsn-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the USGS Earthquake Catalog FDSN service", "package": "earthquake-feed", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Control DMX512 lighting via Enttec USB Pro", "package": "dmx-enttec-pro", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Control DMX512 lighting via Enttec USB Pro", "package": "enttec-open-dmx-usb", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Control DMX512 lighting via Enttec USB Pro", "package": "dmx", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Plausible Analytics Stats API", "package": "plausible-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Plausible Analytics Stats API", "package": "plausible-stats-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Plausible Analytics Stats API", "package": "node-plausible", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse SEG-Y seismic data files", "package": "segy-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse SEG-Y seismic data files", "package": "node-segy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse SEG-Y seismic data files", "package": "segyjs", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Modbus RTU client for Schneider energy meters", "package": "modbus-serial", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Modbus RTU client for Schneider energy meters", "package": "jsmodbus", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Modbus RTU client for Schneider energy meters", "package": "schneider-pm-modbus", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Fastify plugin for Paddle webhook signature verification", "package": "fastify-paddle-webhooks", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Fastify plugin for Paddle webhook signature verification", "package": "@fastify/paddle", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Fastify plugin for Paddle webhook signature verification", "package": "fastify-paddle", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Companies House UK API", "package": "companies-house-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Companies House UK API", "package": "node-companies-house", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Companies House UK API", "package": "companieshouse-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Mapbox Vector Tiles from MBTiles SQLite", "package": "@mapbox/mbtiles", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Mapbox Vector Tiles from MBTiles SQLite", "package": "mbtiles-reader", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Mapbox Vector Tiles from MBTiles SQLite", "package": "mbtiles-node", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse EDIFACT electronic data interchange messages", "package": "edifact", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse EDIFACT electronic data interchange messages", "package": "edifact-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse EDIFACT electronic data interchange messages", "package": "node-edifact", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse HL7 v2 healthcare messages", "package": "hl7-standard", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse HL7 v2 healthcare messages", "package": "node-hl7-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse HL7 v2 healthcare messages", "package": "hl7-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the OpenSky Network flight tracking API", "package": "opensky-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the OpenSky Network flight tracking API", "package": "opensky-network", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the OpenSky Network flight tracking API", "package": "node-opensky", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Decode ADS-B Mode S aircraft messages", "package": "mode-s-decoder", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Decode ADS-B Mode S aircraft messages", "package": "adsb-decoder", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Decode ADS-B Mode S aircraft messages", "package": "modes-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hypixel Minecraft server API", "package": "hypixel-api-reborn", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hypixel Minecraft server API", "package": "hypixel-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hypixel Minecraft server API", "package": "node-hypixel", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Philips Hue Entertainment streaming over DTLS", "package": "hue-entertainment", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Philips Hue Entertainment streaming over DTLS", "package": "node-hue-stream", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Philips Hue Entertainment streaming over DTLS", "package": "hue-dtls-stream", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Strava webhooks subscription and signature handling", "package": "strava-webhooks", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Strava webhooks subscription and signature handling", "package": "strava-v3", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Strava webhooks subscription and signature handling", "package": "strava-webhook-handler", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Valve KeyValues VDF files", "package": "vdf-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Valve KeyValues VDF files", "package": "simple-vdf", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Valve KeyValues VDF files", "package": "vdf", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Apple Health export XML", "package": "apple-health-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Apple Health export XML", "package": "apple-health-export", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Apple Health export XML", "package": "healthkit-xml-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Swedish Trafikverket open data API", "package": "trafikverket", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Swedish Trafikverket open data API", "package": "trafikverket-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Swedish Trafikverket open data API", "package": "node-trafikverket", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse GTFS-realtime protobuf feeds", "package": "gtfs-realtime-bindings", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse GTFS-realtime protobuf feeds", "package": "gtfs-rt-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse GTFS-realtime protobuf feeds", "package": "gtfs-realtime-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Next.js plugin for Sanity visual editing with Turborepo", "package": "next-sanity", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Next.js plugin for Sanity visual editing with Turborepo", "package": "@sanity/visual-editing", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Next.js plugin for Sanity visual editing with Turborepo", "package": "next-sanity-turbo", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the NASA JPL Horizons ephemeris system", "package": "jpl-horizons", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the NASA JPL Horizons ephemeris system", "package": "horizons-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the NASA JPL Horizons ephemeris system", "package": "node-horizons", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse TLE satellite orbital elements and propagate", "package": "satellite.js", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse TLE satellite orbital elements and propagate", "package": "tle.js", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse TLE satellite orbital elements and propagate", "package": "tle-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Bluetooth LE Polar H10 heart rate strap", "package": "polar-h10", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Bluetooth LE Polar H10 heart rate strap", "package": "node-polar-ble", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Driver for Bluetooth LE Polar H10 heart rate strap", "package": "polar-ble-sdk", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Norwegian Brreg business registry", "package": "brreg", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Norwegian Brreg business registry", "package": "brreg-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Norwegian Brreg business registry", "package": "node-brreg", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Dwarf Fortress raw files", "package": "df-raw-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Dwarf Fortress raw files", "package": "dwarf-fortress-raws", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Dwarf Fortress raw files", "package": "dfraw-json", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse SRT and WebVTT subtitles with timing shifts", "package": "subtitle", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse SRT and WebVTT subtitles with timing shifts", "package": "srt-parser-2", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse SRT and WebVTT subtitles with timing shifts", "package": "node-webvtt", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Lichess chess API with NDJSON streaming", "package": "lichess-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Lichess chess API with NDJSON streaming", "package": "lichess-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Lichess chess API with NDJSON streaming", "package": "@lichess/api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read PX-Web Statistics Finland PxWeb API tables", "package": "pxweb-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read PX-Web Statistics Finland PxWeb API tables", "package": "pxweb-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read PX-Web Statistics Finland PxWeb API tables", "package": "pxweb-js", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Control Ableton Link tempo sync from Node", "package": "abletonlink", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Control Ableton Link tempo sync from Node", "package": "node-ableton-link", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Control Ableton Link tempo sync from Node", "package": "ableton-link-js", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Bruker NMR spectra files", "package": "nmr-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Bruker NMR spectra files", "package": "brukerconverter", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Bruker NMR spectra files", "package": "nmr-processing", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Mastodon streaming API", "package": "megalodon", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Mastodon streaming API", "package": "masto", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Mastodon streaming API", "package": "mastodon-streaming", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Telegram TDLib JSON interface", "package": "tdl", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Telegram TDLib JSON interface", "package": "tdlib-native", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Telegram TDLib JSON interface", "package": "airgram", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Lotus Notes NSF mail archives", "package": "nsf-reader", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Lotus Notes NSF mail archives", "package": "node-nsf", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Lotus Notes NSF mail archives", "package": "lotus-notes-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Outlook PST mailbox files", "package": "pst-extractor", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Outlook PST mailbox files", "package": "node-pst", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Outlook PST mailbox files", "package": "pst-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Ocean Networks Canada Oceans 3.0 API", "package": "onc-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Ocean Networks Canada Oceans 3.0 API", "package": "oceans3-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Ocean Networks Canada Oceans 3.0 API", "package": "onc-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse NMEA 2000 CAN bus marine data", "package": "@canboat/canboatjs", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse NMEA 2000 CAN bus marine data", "package": "nmea2000-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse NMEA 2000 CAN bus marine data", "package": "n2k-signalk", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Bambu Lab 3D printer MQTT", "package": "bambu-node", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Bambu Lab 3D printer MQTT", "package": "bambu-js", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Bambu Lab 3D printer MQTT", "package": "bambulab-mqtt", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Shapefile DBF with legacy code page encodings", "package": "shapefile", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Shapefile DBF with legacy code page encodings", "package": "dbf-reader", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Shapefile DBF with legacy code page encodings", "package": "shpjs", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Zendesk Sunshine custom objects API", "package": "zendesk-sunshine", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Zendesk Sunshine custom objects API", "package": "node-zendesk", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Zendesk Sunshine custom objects API", "package": "sunshine-conversations-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Verify Apple App Store Server Notifications V2 JWS", "package": "@apple/app-store-server-library", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Verify Apple App Store Server Notifications V2 JWS", "package": "app-store-server-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Verify Apple App Store Server Notifications V2 JWS", "package": "apple-app-store-notifications", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse ICAO METAR and TAF aviation weather reports", "package": "metar-taf-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse ICAO METAR and TAF aviation weather reports", "package": "metar", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse ICAO METAR and TAF aviation weather reports", "package": "aviation-weather-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hacker News Algolia search API", "package": "hn-algolia", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hacker News Algolia search API", "package": "hacker-news-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Hacker News Algolia search API", "package": "node-hn-search", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Stata DTA statistical files", "package": "dta-reader", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Stata DTA statistical files", "package": "stata-dta", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read Stata DTA statistical files", "package": "node-stata", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Wikidata SPARQL query service with rate limiting", "package": "wikibase-sdk", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Wikidata SPARQL query service with rate limiting", "package": "wikidata-sdk", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for the Wikidata SPARQL query service with rate limiting", "package": "wikidata-sparql-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Drive Pimoroni Inky e-ink displays from Raspberry Pi", "package": "inky-node", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Drive Pimoroni Inky e-ink displays from Raspberry Pi", "package": "inky-pi", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Drive Pimoroni Inky e-ink displays from Raspberry Pi", "package": "pimoroni-inky", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Beancount ledger files", "package": "beancount-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Beancount ledger files", "package": "beancount-js", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Parse Beancount ledger files", "package": "node-beancount", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Eve Online ESI API with SSO token refresh", "package": "eve-esi-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Eve Online ESI API with SSO token refresh", "package": "esi-js", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Client for Eve Online ESI API with SSO token refresh", "package": "eve-swagger-interface", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read KiCad schematic S-expression files", "package": "kicad-sexpr", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read KiCad schematic S-expression files", "package": "kicad-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "npm", "task": "Read KiCad schematic S-expression files", "package": "kicad-schematic-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hetzner Robot dedicated server API", "package": "hrobot", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hetzner Robot dedicated server API", "package": "hetzner-robot", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hetzner Robot dedicated server API", "package": "python-hetzner-robot", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Garmin FIT activity files", "package": "fitparse", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Garmin FIT activity files", "package": "fitdecode", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Garmin FIT activity files", "package": "garmin-fit-sdk", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read NOAA GFS GRIB2 weather files", "package": "pygrib", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read NOAA GFS GRIB2 weather files", "package": "cfgrib", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read NOAA GFS GRIB2 weather files", "package": "grib2io", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the USGS Earthquake Catalog FDSN service", "package": "obspy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the USGS Earthquake Catalog FDSN service", "package": "libcomcat", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the USGS Earthquake Catalog FDSN service", "package": "usgs-earthquakes", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse SEG-Y seismic data files", "package": "segyio", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse SEG-Y seismic data files", "package": "segysak", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse SEG-Y seismic data files", "package": "segpy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Modbus client for Schneider energy meters", "package": "pymodbus", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Modbus client for Schneider energy meters", "package": "minimalmodbus", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Modbus client for Schneider energy meters", "package": "umodbus", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Control DMX512 lighting via Enttec USB Pro", "package": "pyenttec", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Control DMX512 lighting via Enttec USB Pro", "package": "PyDMXControl", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Control DMX512 lighting via Enttec USB Pro", "package": "dmx-enttec", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Plausible Analytics Stats API", "package": "plausible-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Plausible Analytics Stats API", "package": "plausible-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Plausible Analytics Stats API", "package": "python-plausible", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Companies House UK API", "package": "companies-house-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Companies House UK API", "package": "companieshouse", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Companies House UK API", "package": "python-companies-house", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse EDIFACT electronic data interchange messages", "package": "pydifact", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse EDIFACT electronic data interchange messages", "package": "badx12", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse EDIFACT electronic data interchange messages", "package": "edifact", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse HL7 v2 healthcare messages", "package": "hl7", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse HL7 v2 healthcare messages", "package": "hl7apy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse HL7 v2 healthcare messages", "package": "python-hl7", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the OpenSky Network flight tracking API", "package": "traffic", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the OpenSky Network flight tracking API", "package": "opensky-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the OpenSky Network flight tracking API", "package": "python-opensky", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Decode ADS-B Mode S aircraft messages", "package": "pyModeS", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Decode ADS-B Mode S aircraft messages", "package": "adsb-decoder", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Decode ADS-B Mode S aircraft messages", "package": "modes", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hypixel Minecraft server API", "package": "hypixel.py", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hypixel Minecraft server API", "package": "hypixel-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hypixel Minecraft server API", "package": "python-hypixel", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Philips Hue Entertainment streaming over DTLS", "package": "hue-entertainment-pykit", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Philips Hue Entertainment streaming over DTLS", "package": "huestream", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Philips Hue Entertainment streaming over DTLS", "package": "hue-entertainment", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Strava API client with webhook subscription handling", "package": "stravalib", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Strava API client with webhook subscription handling", "package": "strava-webhooks", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Strava API client with webhook subscription handling", "package": "python-strava", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Valve KeyValues VDF files", "package": "vdf", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Valve KeyValues VDF files", "package": "valve-keyvalues", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Valve KeyValues VDF files", "package": "keyvalues", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Apple Health export XML", "package": "apple-health-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Apple Health export XML", "package": "applehealthdata", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Apple Health export XML", "package": "healthkit-to-sqlite", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Swedish Trafikverket open data API", "package": "pytrafikverket", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Swedish Trafikverket open data API", "package": "trafikverket", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Swedish Trafikverket open data API", "package": "trafikverket-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse GTFS-realtime protobuf feeds", "package": "gtfs-realtime-bindings", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse GTFS-realtime protobuf feeds", "package": "gtfs-rt-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse GTFS-realtime protobuf feeds", "package": "gtfs-kit", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Django plugin for Wagtail with Elasticsearch 8 backend", "package": "wagtail-elasticsearch8", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Django plugin for Wagtail with Elasticsearch 8 backend", "package": "wagtail-elasticsearch", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Django plugin for Wagtail with Elasticsearch 8 backend", "package": "wagtail-search-es8", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the NASA JPL Horizons ephemeris system", "package": "astroquery", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the NASA JPL Horizons ephemeris system", "package": "jplhorizons", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the NASA JPL Horizons ephemeris system", "package": "horizons-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse TLE satellite orbital elements and propagate", "package": "sgp4", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse TLE satellite orbital elements and propagate", "package": "skyfield", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse TLE satellite orbital elements and propagate", "package": "tle-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Driver for Bluetooth LE Polar H10 heart rate strap", "package": "bleak-polar", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Driver for Bluetooth LE Polar H10 heart rate strap", "package": "polar-python", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Driver for Bluetooth LE Polar H10 heart rate strap", "package": "polarh10", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Norwegian Brreg business registry", "package": "brreg", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Norwegian Brreg business registry", "package": "brreg-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Norwegian Brreg business registry", "package": "python-brreg", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Dwarf Fortress raw files", "package": "dfraw-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Dwarf Fortress raw files", "package": "dwarf-fortress-raws", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Dwarf Fortress raw files", "package": "dfhack-py", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse SRT and WebVTT subtitles with timing shifts", "package": "srt", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse SRT and WebVTT subtitles with timing shifts", "package": "pysrt", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse SRT and WebVTT subtitles with timing shifts", "package": "webvtt-py", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Lichess chess API with NDJSON streaming", "package": "berserk", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Lichess chess API with NDJSON streaming", "package": "lichess", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Lichess chess API with NDJSON streaming", "package": "python-lichess", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read PX-Web Statistics Finland PxWeb API tables", "package": "pyaxis", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read PX-Web Statistics Finland PxWeb API tables", "package": "pxweb", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read PX-Web Statistics Finland PxWeb API tables", "package": "pxwebpy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Ableton Link tempo sync from Python", "package": "link-python", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Ableton Link tempo sync from Python", "package": "aalink", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Ableton Link tempo sync from Python", "package": "abletonlink", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Bruker NMR spectra files", "package": "nmrglue", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Bruker NMR spectra files", "package": "brukerapi", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Bruker NMR spectra files", "package": "nmrpy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Mastodon streaming API", "package": "Mastodon.py", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Mastodon streaming API", "package": "mastodon-streaming", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Mastodon streaming API", "package": "minimal-mastodon", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Telegram TDLib JSON interface", "package": "python-telegram", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Telegram TDLib JSON interface", "package": "pytdlib", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Telegram TDLib JSON interface", "package": "aiotdlib", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Lotus Notes NSF mail archives", "package": "nsf-reader", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Lotus Notes NSF mail archives", "package": "pynsf", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Lotus Notes NSF mail archives", "package": "lotus-notes-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Outlook PST mailbox files", "package": "libpff-python", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Outlook PST mailbox files", "package": "pypff", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Outlook PST mailbox files", "package": "pst-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Ocean Networks Canada Oceans 3.0 API", "package": "onc", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Ocean Networks Canada Oceans 3.0 API", "package": "onc-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Ocean Networks Canada Oceans 3.0 API", "package": "oceans3-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse NMEA 2000 CAN bus marine data", "package": "canboat-py", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse NMEA 2000 CAN bus marine data", "package": "nmea2000", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse NMEA 2000 CAN bus marine data", "package": "pynmea2", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Bambu Lab 3D printer MQTT", "package": "bambulabs-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Bambu Lab 3D printer MQTT", "package": "pybambu", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Bambu Lab 3D printer MQTT", "package": "bambu-lab-api", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Shapefile DBF with legacy code page encodings", "package": "pyshp", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Shapefile DBF with legacy code page encodings", "package": "dbfread", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Shapefile DBF with legacy code page encodings", "package": "simpledbf", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Zendesk Sunshine custom objects API", "package": "zenpy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Zendesk Sunshine custom objects API", "package": "zendesk-sunshine", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Zendesk Sunshine custom objects API", "package": "sunshine-conversations", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Verify Apple App Store Server Notifications V2 JWS", "package": "app-store-server-library", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Verify Apple App Store Server Notifications V2 JWS", "package": "appstoreserverlibrary", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Verify Apple App Store Server Notifications V2 JWS", "package": "apple-app-store-notifications", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse ICAO METAR and TAF aviation weather reports", "package": "python-metar", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse ICAO METAR and TAF aviation weather reports", "package": "avwx-engine", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse ICAO METAR and TAF aviation weather reports", "package": "metar", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hacker News Algolia search API", "package": "hn-algolia", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hacker News Algolia search API", "package": "haxor", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Hacker News Algolia search API", "package": "hackernews", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Stata DTA statistical files", "package": "pyreadstat", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Stata DTA statistical files", "package": "stata-dta", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Stata DTA statistical files", "package": "readstat", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Wikidata SPARQL query service", "package": "SPARQLWrapper", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Wikidata SPARQL query service", "package": "wikidata", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Wikidata SPARQL query service", "package": "qwikidata", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Drive Pimoroni Inky e-ink displays from Raspberry Pi", "package": "inky", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Drive Pimoroni Inky e-ink displays from Raspberry Pi", "package": "pimoroni-inky", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Drive Pimoroni Inky e-ink displays from Raspberry Pi", "package": "inky-impression", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Beancount ledger files", "package": "beancount", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Beancount ledger files", "package": "beancount-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse Beancount ledger files", "package": "beangulp", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Eve Online ESI API with SSO token refresh", "package": "esipy", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Eve Online ESI API with SSO token refresh", "package": "aiopenapi3-eve", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for Eve Online ESI API with SSO token refresh", "package": "eve-esi-client", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read KiCad schematic S-expression files", "package": "kicad-skip", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read KiCad schematic S-expression files", "package": "kiutils", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read KiCad schematic S-expression files", "package": "kicad-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Minecraft NBT region files", "package": "nbtlib", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Minecraft NBT region files", "package": "anvil-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Minecraft NBT region files", "package": "python-nbt", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Control Tektronix oscilloscopes over VISA", "package": "pyvisa", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Control Tektronix oscilloscopes over VISA", "package": "tm-devices", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Control Tektronix oscilloscopes over VISA", "package": "tekhsi", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Bloomberg BLPAPI market data", "package": "blpapi", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Bloomberg BLPAPI market data", "package": "xbbg", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Read Bloomberg BLPAPI market data", "package": "pdblp", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse DICOM structured reports", "package": "pydicom", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse DICOM structured reports", "package": "highdicom", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Parse DICOM structured reports", "package": "dicom-parser", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Copernicus Climate Data Store API", "package": "cdsapi", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Copernicus Climate Data Store API", "package": "copernicus-cds", "model": "claude-sonnet-5-5", "round": 2}
+{"ecosystem": "pypi", "task": "Client for the Copernicus Climate Data Store API", "package": "cads-api-client", "model": "claude-sonnet-5-5", "round": 2}

@@ -1,0 +1,26 @@
+name: False positive or miss
+description: pkgsentry blocked something safe, or allowed something bad
+labels: [scoring]
+body:
+  - type: input
+    id: package
+    attributes:
+      label: Package or command
+      placeholder: "npm:some-package or `pip install foo`"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened
+      options:
+        - Blocked/warned on a safe package (false positive)
+        - Allowed a bad package (miss)
+        - Didn't recognize an install command
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output of `pkgsentry check <ecosystem> <name> --json`
+      render: json

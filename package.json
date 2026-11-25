@@ -1,6 +1,6 @@
 {
   "name": "pkgsentry",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Stops AI coding agents from installing hallucinated, typosquatted, or malicious packages. CLI + Claude Code hook + MCP server.",
   "keywords": [
     "security",
@@ -31,7 +31,8 @@
     "dist",
     "data",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "engines": {
     "node": ">=20"

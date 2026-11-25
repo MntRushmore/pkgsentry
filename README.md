@@ -10,7 +10,9 @@ Claude Code, Cursor, Codex and friends run `npm install` and `pip install` on yo
 npx pkgsentry setup
 ```
 
-That's it. It finds the agents you have installed, shows you exactly what it will change, and asks before writing anything.
+That's it. It finds the agents you have installed, lets you pick which to protect, shows you exactly what it will change, and asks before writing anything. Then it dares you to sneak a package past it.
+
+[Watch the 50-second showcase](docs/showcase.mp4)
 
 [![CI](https://github.com/MntRushmore/pkgsentry/actions/workflows/ci.yml/badge.svg)](https://github.com/MntRushmore/pkgsentry/actions/workflows/ci.yml) ![zero dependencies](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen) ![license MIT](https://img.shields.io/badge/license-MIT-blue)
 
@@ -49,10 +51,13 @@ Zero runtime dependencies. A supply-chain tool shouldn't bring its own supply ch
 ## Install
 
 ```bash
-npx pkgsentry setup          # detect agents, show the diff, ask, write
-npx pkgsentry setup --dry-run
-npx pkgsentry uninstall      # removes exactly what setup added
+npx pkgsentry setup             # interactive: pick agents, review changes, try it out
+npx pkgsentry setup --yes       # non-interactive: protect every detected agent
+npx pkgsentry setup --dry-run   # show the changes, write nothing
+npx pkgsentry uninstall         # removes exactly what setup added
 ```
+
+In a terminal, `setup` is interactive: arrow keys and space to pick agents, a summary of every file it will touch, then a quick game where you try to get a hallucinated or malicious package past it (using the real checker). In CI, with piped output, or with `--plain`, it prints the classic plain diff and asks a single yes/no question instead.
 
 | Agent | What `setup` adds | Enforcement |
 |---|---|---|

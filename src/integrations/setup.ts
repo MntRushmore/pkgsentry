@@ -4,6 +4,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { createInterface } from 'node:readline/promises';
 import { paint } from '../output.js';
+import { defaultTerm, type Term } from '../tui.js';
 import { VERSION } from '../version.js';
 
 /**
@@ -115,7 +116,7 @@ function escape(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-const tilde = (env: Env, p: string) => (p.startsWith(env.home) ? '~' + p.slice(env.home.length) : path.relative(env.cwd, p) || p);
+export const tilde = (env: Env, p: string) => (p.startsWith(env.home) ? '~' + p.slice(env.home.length) : path.relative(env.cwd, p) || p);
 const shellJoin = (inv: Invocation, ...extra: string[]) => [inv.command, ...inv.args, ...extra].map((a) => (/\s/.test(a) ? `"${a}"` : a)).join(' ');
 const isOurs = (cmd: unknown) => typeof cmd === 'string' && /pkgsentry/.test(cmd);
 
@@ -318,6 +319,8 @@ interface RunOpts {
   env?: Env;
   out?: NodeJS.WritableStream & { isTTY?: boolean };
   confirm?: (q: string) => Promise<boolean>;
+  /** Use the full-screen interactive flow (true = real terminal, or pass a Term). */
+  interactive?: boolean | Term;
 }
 
 async function ask(q: string): Promise<boolean> {
@@ -339,8 +342,23 @@ function previewLines(edit: FileEdit): string[] {
   return [...removed.slice(0, 12).map((l) => `- ${l}`), ...added.slice(0, 12).map((l) => `+ ${l}`)];
 }
 
+/** Writes one edit, backing up the original to <file>.pkgsentry.bak first. */
+export async function applyEdit(e: FileEdit): Promise<void> {
+  if (e.before !== undefined) await copyFile(e.path, `${e.path}.pkgsentry.bak`);
+  if (e.after === undefined) {
+    await rm(e.path, { force: true });
+  } else {
+    await mkdir(path.dirname(e.path), { recursive: true });
+    await writeFile(e.path, e.after);
+  }
+}
+
 async function execute(mode: 'install' | 'uninstall', opts: RunOpts): Promise<number> {
   const env = opts.env ?? defaultEnv();
+  if (mode === 'install' && opts.interactive) {
+    const { interactiveSetup } = await import('./setup-interactive.js');
+    return interactiveSetup(env, opts.interactive === true ? defaultTerm() : opts.interactive);
+  }
   const out = opts.out ?? process.stdout;
   const c = paint(out as NodeJS.WriteStream);
   const say = (s = '') => out.write(s + '\n');
@@ -401,15 +419,7 @@ async function execute(mode: 'install' | 'uninstall', opts: RunOpts): Promise<nu
     return 1;
   }
 
-  for (const e of edits) {
-    if (e.before !== undefined) await copyFile(e.path, `${e.path}.pkgsentry.bak`);
-    if (e.after === undefined) {
-      await rm(e.path, { force: true });
-    } else {
-      await mkdir(path.dirname(e.path), { recursive: true });
-      await writeFile(e.path, e.after);
-    }
-  }
+  for (const e of edits) await applyEdit(e);
   say(c.green(`Done.`) + c.dim(` Backups saved next to each file as *.pkgsentry.bak`));
   for (const n of plans.flatMap((p) => p.plan.notes)) say(c.dim(`- ${n}`));
   if (mode === 'install') say(c.dim('Undo any time with: pkgsentry uninstall'));

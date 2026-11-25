@@ -21,7 +21,7 @@ Stops AI coding agents from installing hallucinated, typosquatted, or malicious 
 Usage
   pkgsentry check <npm|pypi> <name>[@version] [more names...]   Check packages
   pkgsentry run [--yes] -- <install command>                    Check, then run an install
-  pkgsentry setup [--yes] [--dry-run]                           Wire into Claude Code, Cursor, Windsurf, Codex
+  pkgsentry setup [--yes] [--dry-run] [--plain]                 Wire into Claude Code, Cursor, Windsurf, Codex
   pkgsentry uninstall [--yes]                                   Undo setup
   pkgsentry mcp                                                 Start the MCP server (stdio)
   pkgsentry cache clear                                         Delete cached lookups
@@ -47,10 +47,11 @@ interface Flags {
   dryRun: boolean;
   help: boolean;
   version: boolean;
+  plain: boolean;
 }
 
 function parseFlags(argv: string[]): { flags: Flags; rest: string[] } {
-  const flags: Flags = { json: false, yes: false, noCache: false, dryRun: false, help: false, version: false };
+  const flags: Flags = { json: false, yes: false, noCache: false, dryRun: false, help: false, version: false, plain: false };
   const rest: string[] = [];
   for (const a of argv) {
     if (a === '--json') flags.json = true;
@@ -59,6 +60,7 @@ function parseFlags(argv: string[]): { flags: Flags; rest: string[] } {
     else if (a === '--dry-run') flags.dryRun = true;
     else if (a === '--help' || a === '-h') flags.help = true;
     else if (a === '--version' || a === '-v') flags.version = true;
+    else if (a === '--plain') flags.plain = true;
     else rest.push(a);
   }
   return { flags, rest };
@@ -176,6 +178,14 @@ async function readStdin(): Promise<string> {
   return Buffer.concat(chunks).toString('utf8');
 }
 
+// `pkgsentry check ... | head` closes the pipe early. That's not an error.
+for (const stream of [process.stdout, process.stderr]) {
+  stream.on('error', (e: NodeJS.ErrnoException) => {
+    if (e.code === 'EPIPE') process.exit(process.exitCode ?? 0);
+    throw e;
+  });
+}
+
 export async function main(argv = process.argv.slice(2)) {
   const [cmd, ...restRaw] = argv;
   // `run` passes everything after `--` through untouched.
@@ -191,9 +201,13 @@ export async function main(argv = process.argv.slice(2)) {
       return cmdCheck(rest, flags);
     case 'run':
       return cmdRun(dash === -1 ? rest : [...rest, '--', ...restRaw.slice(dash + 1)], flags);
-    case 'setup':
-      process.exitCode = await runSetup({ yes: flags.yes, dryRun: flags.dryRun, only: rest });
+    case 'setup': {
+      const interactive =
+        !flags.yes && !flags.dryRun && !flags.plain && !rest.length && !process.env.CI &&
+        process.stdin.isTTY === true && process.stdout.isTTY === true;
+      process.exitCode = await runSetup({ yes: flags.yes, dryRun: flags.dryRun, only: rest, interactive });
       return;
+    }
     case 'uninstall':
       process.exitCode = await runUninstall({ yes: flags.yes, dryRun: flags.dryRun, only: rest });
       return;

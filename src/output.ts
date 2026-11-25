@@ -30,9 +30,10 @@ export function paint(stream: NodeJS.WriteStream = process.stdout) {
  */
 export function formatResult(r: CheckResult, stream?: NodeJS.WriteStream): string {
   const c = paint(stream);
-  const label = `${r.name}${r.version ? c.dim('@' + r.version) : ''} ${c.dim(`(${r.ecosystem})`)}`;
+  // Keep dim spans outside bold ones: many terminals can't show both at once.
+  const label = `${c.bold(r.name)}${r.version ? c.dim('@' + r.version) : ''} ${c.dim(`(${r.ecosystem})`)}`;
   const facts = r.facts.length ? `  ${c.dim(r.facts.join(' · '))}` : '';
-  const lines = [`  ${c.badge(r.verdict)}  ${c.bold(label)}${facts}`];
+  const lines = [`  ${c.badge(r.verdict)}  ${label}${facts}`];
   for (const s of r.signals) {
     const bullet = s.severity === 'info' ? c.dim(`  - ${s.message}`) : `  - ${s.message}`;
     lines.push(bullet);

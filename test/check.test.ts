@@ -29,7 +29,8 @@ describe('npm', () => {
     const r = await createChecker({ fetch: f, now }).check({ ecosystem: 'npm', name: 'express' });
     expect(r.verdict).toBe('ALLOW');
     // No packument, downloads, or repo lookups for top packages.
-    expect(f.calls).toEqual(['GET https://registry.npmjs.org/express/latest', `POST ${OSV}`]);
+    // (The two lookups run in parallel, so their order isn't fixed.)
+    expect([...f.calls].sort()).toEqual(['GET https://registry.npmjs.org/express/latest', `POST ${OSV}`]);
   });
 
   it('blocks a new typosquat with a postinstall script', async () => {

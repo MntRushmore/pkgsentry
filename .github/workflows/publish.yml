@@ -30,6 +30,13 @@ jobs:
           TAG="${GITHUB_REF_NAME#v}"
           PKG="$(node -p "require('./package.json').version")"
           if [ "$TAG" != "$PKG" ]; then echo "Tag $TAG != package.json $PKG"; exit 1; fi
-      - run: npm publish --provenance --access public
+      - name: Skip if this version is already on npm (e.g. published by hand)
+        id: exists
+        run: |
+          if npm view "pkgsentry@$(node -p "require('./package.json').version")" version >/dev/null 2>&1; then
+            echo "already=true" >> "$GITHUB_OUTPUT"; echo "Already published, skipping."
+          fi
+      - if: steps.exists.outputs.already != 'true'
+        run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

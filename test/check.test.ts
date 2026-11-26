@@ -3,6 +3,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { createChecker } from '../src/check.js';
+import { cargo } from '../src/ecosystems/cargo.js';
 import { daysAgo, fakeFetch, OSV_EMPTY, tempHome } from './helpers.js';
 
 const now = new Date('2026-11-25T00:00:00Z');
@@ -173,6 +174,19 @@ describe('rubygems', () => {
     const r = await createChecker({ fetch: f, now }).check({ ecosystem: 'rubygems', name: 'fresh-gem' });
     expect(r.verdict).toBe('WARN');
     expect(r.signals.map((s) => s.id)).toEqual(['new_package', 'low_downloads']);
+  });
+});
+
+describe('cargo', () => {
+  it('blocks a missing crate with a suggestion', async () => {
+    const f = fakeFetch({ [OSV]: OSV_EMPTY });
+    const r = await createChecker({ fetch: f, now }).check({ ecosystem: 'cargo', name: 'serd' });
+    expect(r.verdict).toBe('BLOCK');
+    expect(r.signals[0]!.message).toBe(`Doesn't exist on crates.io. Did you mean "serde"?`);
+  });
+
+  it('treats a crate and its underscored twin as one name', () => {
+    expect(cargo.normalize('Tokio_Util')).toBe('tokio-util');
   });
 });
 

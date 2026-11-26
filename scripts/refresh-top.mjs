@@ -8,6 +8,7 @@
 //   npm  -> npm-high-impact (wooorm), `topDownload` list, ranked by downloads
 //   PyPI -> hugovk/top-pypi-packages, 30-day download counts from BigQuery/ClickHouse
 //   RubyGems -> no public top-gems API, so rank this curated seed by all-time downloads
+//   cargo    -> crates.io /api/v1/crates sorted by downloads (needs its User-Agent)
 import { writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -259,8 +260,22 @@ async function rubygemsTop() {
   };
 }
 
+async function cargoTop() {
+  const headers = { 'user-agent': 'pkgsentry-refresh-top', accept: 'application/json' };
+  const names = [];
+  for (let page = 1; names.length < LIMIT; page++) {
+    const res = await fetch(`https://crates.io/api/v1/crates?sort=downloads&per_page=100&page=${page}`, { headers });
+    if (!res.ok) throw new Error(`crates.io page ${page} -> HTTP ${res.status}`);
+    const { crates } = await res.json();
+    if (!crates.length) break;
+    names.push(...crates.map((c) => c.name));
+  }
+  if (names.length < 100) throw new Error(`crates.io parse looks wrong (${names.length} names)`);
+  return { source: 'crates.io sort=downloads', packages: names.slice(0, LIMIT) };
+}
+
 const updated = new Date().toISOString().slice(0, 10);
-for (const [eco, fn] of [['npm', npmTop], ['pypi', pypiTop], ['rubygems', rubygemsTop]]) {
+for (const [eco, fn] of [['npm', npmTop], ['pypi', pypiTop], ['rubygems', rubygemsTop], ['cargo', cargoTop]]) {
   const { source, packages } = await fn();
   const file = path.join(root, 'data', `top-${eco}.json`);
   await writeFile(file, JSON.stringify({ ecosystem: eco, updated, source, packages }) + '\n');

@@ -156,6 +156,19 @@ export function parseGemSpec(raw: string): ParsedPackage | SkippedSpec {
   return { ecosystem: 'rubygems', name: m[1]!, ...(m[2] ? { version: m[2] } : {}), spec };
 }
 
+const CARGO_SPEC = /^([A-Za-z0-9][A-Za-z0-9_-]*)(?:@([^\s]+))?$/;
+
+/** `serde` or `serde@1.0.200`, the forms `cargo add` and `cargo install` take. */
+export function parseCargoSpec(raw: string): ParsedPackage | SkippedSpec {
+  const spec = raw.trim();
+  if (NON_REGISTRY.test(spec) || ARCHIVE.test(spec) || spec.includes('://') || spec.startsWith('.') || spec.startsWith('/')) {
+    return { spec, reason: 'not a registry package' };
+  }
+  const m = spec.match(CARGO_SPEC);
+  if (!m) return { spec, reason: 'unrecognized requirement' };
+  return { ecosystem: 'cargo', name: m[1]!, ...(m[2] ? { version: m[2] } : {}), spec };
+}
+
 // ---------------------------------------------------------------------------
 // Command matchers
 // ---------------------------------------------------------------------------
@@ -167,7 +180,7 @@ interface Ctx {
 }
 
 function add(ctx: Ctx, eco: EcosystemId, spec: string) {
-  const r = eco === 'npm' ? parseNpmSpec(spec) : eco === 'rubygems' ? parseGemSpec(spec) : parsePySpec(spec);
+  const r = eco === 'npm' ? parseNpmSpec(spec) : eco === 'rubygems' ? parseGemSpec(spec) : eco === 'cargo' ? parseCargoSpec(spec) : parsePySpec(spec);
   if ('reason' in r) ctx.out.skipped.push(r);
   else ctx.out.packages.push(r);
 }
@@ -371,6 +384,17 @@ function bundle(args: string[], ctx: Ctx) {
   for (const p of positionals(args.slice(1), BUNDLE_FLAGS, ctx, 'rubygems')) add(ctx, 'rubygems', p);
 }
 
+const CARGO_FLAGS: FlagSpec = {
+  value: new Set(['--vers', '--version', '--registry', '--index', '--root', '--target', '--git', '--branch', '--tag', '--rev', '--path', '--features', '-F', '--package', '-p', '--jobs', '-j', '--profile', '--config', '--target-dir']),
+};
+
+function cargoAdd(args: string[], ctx: Ctx) {
+  const [sub, ...rest] = args;
+  if (sub !== 'add' && sub !== 'install') return;
+  ctx.out.isInstall = true;
+  for (const p of positionals(rest, CARGO_FLAGS, ctx, 'cargo')) add(ctx, 'cargo', p);
+}
+
 const WRAPPERS = new Set(['sudo', 'env', 'time', 'nohup', 'exec', 'command', 'nice', 'doas', 'caffeinate']);
 const SUDO_VALUE = new Set(['-u', '-g', '-C', '-h', '-p', '-U']);
 
@@ -414,6 +438,7 @@ function handleCommand(words: string[], ctx: Ctx) {
   if (cmd === 'pipx') return pipx(args, ctx);
   if (cmd === 'poetry' || cmd === 'pdm' || cmd === 'rye') return poetryLike(args, ctx);
   if (cmd === 'gem') return gemInstall(args, ctx);
+  if (cmd === 'cargo') return cargoAdd(args, ctx);
   if (cmd === 'bundle') return bundle(args, ctx);
 }
 
@@ -434,4 +459,4 @@ export function parseInstallCommand(command: string, cwd = process.cwd()): Parse
 }
 
 /** Cheap pre-filter so hooks can skip non-install commands without tokenizing. */
-export const MAYBE_INSTALL = /\b(npm|npx|pnpm|pnpx|yarn|bun|bunx|pip\d*(\.\d+)?|python\d*(\.\d+)?|py|uv|uvx|pipx|poetry|pdm|rye|gem|bundle)\b/;
+export const MAYBE_INSTALL = /\b(npm|npx|pnpm|pnpx|yarn|bun|bunx|pip\d*(\.\d+)?|python\d*(\.\d+)?|py|uv|uvx|pipx|poetry|pdm|rye|gem|bundle|cargo)\b/;

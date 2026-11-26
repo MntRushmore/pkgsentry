@@ -39,7 +39,7 @@ $ npx pkgsentry check pypi reqeusts
   - Doesn't exist on PyPI. Did you mean "requests"?
 ```
 
-- **`pkgsentry check <npm|pypi> <name>[@version]...`**: ALLOW / WARN / BLOCK with reasons. `--json` for machines.
+- **`pkgsentry check <npm|pypi|rubygems> <name>[@version]...`**: ALLOW / WARN / BLOCK with reasons. `--json` for machines.
 - **`pkgsentry run -- <install command>`**: parses the command, checks every package, and only runs it if nothing is blocked. WARN asks first (or pass `--yes`).
 - **Claude Code hook**: a `PreToolUse` hook on Bash. Blocked installs are denied before they run, and the reason goes back to Claude so it can fix the name itself. Warnings ask you.
 - **MCP server**: a `check_package` / `check_install_command` tool for Cursor, Windsurf, Codex, or any MCP client, plus a rules file telling the agent to use it.
@@ -82,7 +82,7 @@ Every check collects signals. Each adds points. Some block outright.
 | Lookalike of a top-5,000 package | 50 | Edit distance 1 (names of 4-7 chars) or 2 (8+), adjacent swaps, `-`/`_`/`.` confusion, missing scope (`types-node`), homoglyphs (`l`/`1`, `rn`/`m`). Ignored if the package itself has 10k+ weekly downloads. |
 | First published < 7 days ago | 35 | |
 | First published < 30 days ago | 25 | |
-| Fewer than 50 downloads last week | 25 | npm downloads API, pypistats.org |
+| Fewer than 50 downloads last week | 25 | npm downloads API, pypistats.org, RubyGems all-time / 52 |
 | Fewer than 1,000 downloads last week | 10 | |
 | Install script that fetches or evals | 35 | `preinstall`/`install`/`postinstall`/`prepare` containing `curl`, `wget`, `eval`, `base64`, `child_process`, URLs... |
 | Any install script | 20 | npm only. Not counted for popular packages (esbuild, sharp...). |
@@ -98,7 +98,7 @@ Every check collects signals. Each adds points. Some block outright.
 
 So a two-day-old lookalike of `lodash` with nine downloads is blocked (50 + 35 + 25). A brand new, barely used package with a real repo gets a warning. A new package with an install script and no users is blocked.
 
-The top-5,000 lists ship in [`data/`](data) (from [npm-high-impact](https://github.com/wooorm/npm-high-impact) and [top-pypi-packages](https://github.com/hugovk/top-pypi-packages)). Refresh them with `npm run refresh-top`. A GitHub Action opens a PR monthly.
+The top-5,000 lists ship in [`data/`](data) (from [npm-high-impact](https://github.com/wooorm/npm-high-impact), [top-pypi-packages](https://github.com/hugovk/top-pypi-packages) and RubyGems' own download counts). Refresh them with `npm run refresh-top`. A GitHub Action opens a PR monthly.
 
 ## Benchmark
 
@@ -188,7 +188,7 @@ const results = await createChecker().checkAll(packages);
 
 ## Limitations
 
-- npm and PyPI only for now. Cargo, Go, and RubyGems are [good first issues](https://github.com/MntRushmore/pkgsentry/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+- npm, PyPI and RubyGems for now. Cargo and Go are [good first issues](https://github.com/MntRushmore/pkgsentry/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 - Packages from private registries look nonexistent to pkgsentry. Allowlist them.
 - `npm install` with no arguments (installing from `package.json`) isn't checked yet.
 - Cursor, Windsurf, and Codex enforcement relies on the agent following its rules file. Only the Claude Code hook can block on its own.

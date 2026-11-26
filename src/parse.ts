@@ -143,6 +143,19 @@ export function parsePySpec(raw: string): ParsedPackage | SkippedSpec {
   return { ecosystem: 'pypi', name, ...(version ? { version } : {}), spec };
 }
 
+const GEM_SPEC = /^([A-Za-z0-9][A-Za-z0-9._-]*)(?::([^\s]+))?$/;
+
+/** `rake` or `rake:13.0.6`: the two forms `gem install` and `bundle add` take. */
+export function parseGemSpec(raw: string): ParsedPackage | SkippedSpec {
+  const spec = raw.trim();
+  if (NON_REGISTRY.test(spec) || ARCHIVE.test(spec) || spec.includes('://') || spec.startsWith('.') || spec.startsWith('/')) {
+    return { spec, reason: 'not a registry package' };
+  }
+  const m = spec.match(GEM_SPEC);
+  if (!m) return { spec, reason: 'unrecognized requirement' };
+  return { ecosystem: 'rubygems', name: m[1]!, ...(m[2] ? { version: m[2] } : {}), spec };
+}
+
 // ---------------------------------------------------------------------------
 // Command matchers
 // ---------------------------------------------------------------------------
@@ -154,7 +167,7 @@ interface Ctx {
 }
 
 function add(ctx: Ctx, eco: EcosystemId, spec: string) {
-  const r = eco === 'npm' ? parseNpmSpec(spec) : parsePySpec(spec);
+  const r = eco === 'npm' ? parseNpmSpec(spec) : eco === 'rubygems' ? parseGemSpec(spec) : parsePySpec(spec);
   if ('reason' in r) ctx.out.skipped.push(r);
   else ctx.out.packages.push(r);
 }
@@ -338,6 +351,26 @@ function poetryLike(args: string[], ctx: Ctx) {
   for (const p of positionals(args.slice(1), POETRY_FLAGS, ctx, 'pypi')) add(ctx, 'pypi', p);
 }
 
+const GEM_FLAGS: FlagSpec = {
+  value: new Set(['-v', '--version', '-i', '--install-dir', '-n', '--bindir', '-l', '--local', '-s', '--source', '--platform', '-P', '--trust-policy', '--build-root', '-g', '--file', '--config-file', '-p', '--http-proxy']),
+};
+
+function gemInstall(args: string[], ctx: Ctx) {
+  if (args[0] !== 'install') return;
+  ctx.out.isInstall = true;
+  for (const p of positionals(args.slice(1), GEM_FLAGS, ctx, 'rubygems')) add(ctx, 'rubygems', p);
+}
+
+const BUNDLE_FLAGS: FlagSpec = {
+  value: new Set(['--version', '-v', '--group', '-g', '--source', '--git', '--github', '--branch', '--ref', '--path', '--require', '-r', '--platform', '--platforms']),
+};
+
+function bundle(args: string[], ctx: Ctx) {
+  if (args[0] !== 'add') return;
+  ctx.out.isInstall = true;
+  for (const p of positionals(args.slice(1), BUNDLE_FLAGS, ctx, 'rubygems')) add(ctx, 'rubygems', p);
+}
+
 const WRAPPERS = new Set(['sudo', 'env', 'time', 'nohup', 'exec', 'command', 'nice', 'doas', 'caffeinate']);
 const SUDO_VALUE = new Set(['-u', '-g', '-C', '-h', '-p', '-U']);
 
@@ -380,6 +413,8 @@ function handleCommand(words: string[], ctx: Ctx) {
   if (cmd === 'uvx') return uvRunLike(args, ctx, true);
   if (cmd === 'pipx') return pipx(args, ctx);
   if (cmd === 'poetry' || cmd === 'pdm' || cmd === 'rye') return poetryLike(args, ctx);
+  if (cmd === 'gem') return gemInstall(args, ctx);
+  if (cmd === 'bundle') return bundle(args, ctx);
 }
 
 /** Parses a shell command string. `cwd` is used to resolve requirements files. */
@@ -399,4 +434,4 @@ export function parseInstallCommand(command: string, cwd = process.cwd()): Parse
 }
 
 /** Cheap pre-filter so hooks can skip non-install commands without tokenizing. */
-export const MAYBE_INSTALL = /\b(npm|npx|pnpm|pnpx|yarn|bun|bunx|pip\d*(\.\d+)?|python\d*(\.\d+)?|py|uv|uvx|pipx|poetry|pdm|rye)\b/;
+export const MAYBE_INSTALL = /\b(npm|npx|pnpm|pnpx|yarn|bun|bunx|pip\d*(\.\d+)?|python\d*(\.\d+)?|py|uv|uvx|pipx|poetry|pdm|rye|gem|bundle)\b/;

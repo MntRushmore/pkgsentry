@@ -153,6 +153,29 @@ describe('pypi', () => {
   });
 });
 
+describe('rubygems', () => {
+  it('blocks a missing gem with a suggestion', async () => {
+    const f = fakeFetch({ [OSV]: OSV_EMPTY });
+    const r = await createChecker({ fetch: f, now }).check({ ecosystem: 'rubygems', name: 'railz' });
+    expect(r.verdict).toBe('BLOCK');
+    expect(r.signals[0]!.message).toBe(`Doesn't exist on RubyGems. Did you mean "rails"?`);
+  });
+
+  it('reads the newest version date and all-time downloads from one document', async () => {
+    const f = fakeFetch({
+      'https://rubygems.org/api/v1/gems/fresh-gem.json': {
+        status: 200,
+        body: { name: 'fresh-gem', version: '0.1.0', version_created_at: daysAgo(2, now), info: 'x', source_code_uri: 'https://github.com/a/fresh-gem', downloads: 52 * 40 },
+      },
+      [OSV]: OSV_EMPTY,
+      'https://github.com/a/fresh-gem': { status: 200 },
+    });
+    const r = await createChecker({ fetch: f, now }).check({ ecosystem: 'rubygems', name: 'fresh-gem' });
+    expect(r.verdict).toBe('WARN');
+    expect(r.signals.map((s) => s.id)).toEqual(['new_package', 'low_downloads']);
+  });
+});
+
 describe('caching', () => {
   it('serves repeat checks from disk', async () => {
     const routes = {

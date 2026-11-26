@@ -1,5 +1,5 @@
 /** Ecosystems pkgsentry knows how to check. Add new ids here (e.g. 'cargo', 'go'). */
-export type EcosystemId = 'npm' | 'pypi';
+export type EcosystemId = 'npm' | 'pypi' | 'rubygems' | 'cargo';
 
 export type Verdict = 'ALLOW' | 'WARN' | 'BLOCK';
 

@@ -8,7 +8,7 @@ import { runClaudeHook } from './integrations/claude-code.js';
 import { runSetup, runUninstall } from './integrations/setup.js';
 import { startMcpServer } from './mcp.js';
 import { formatResults, paint, summaryLine } from './output.js';
-import { parseInstallCommand, parseNpmSpec, parsePySpec } from './parse.js';
+import { parseGemSpec, parseInstallCommand, parseNpmSpec, parsePySpec } from './parse.js';
 import type { CheckResult, PackageRef, Verdict } from './types.js';
 import { VERSION } from './version.js';
 
@@ -95,7 +95,7 @@ function jsonOut(results: CheckResult[], extra: Record<string, unknown> = {}) {
 
 async function cmdCheck(args: string[], flags: Flags) {
   const [ecoArg, ...names] = args;
-  if (!ecoArg || !names.length) fail('usage: pkgsentry check <npm|pypi> <name>[@version]');
+  if (!ecoArg || !names.length) fail('usage: pkgsentry check <npm|pypi|rubygems> <name>[@version]');
   const eco = resolveEcosystem(ecoArg);
   if (!eco) fail(`unknown ecosystem "${ecoArg}". Supported: ${Object.keys(ECOSYSTEMS).join(', ')}`);
 
@@ -106,9 +106,9 @@ async function cmdCheck(args: string[], flags: Flags) {
       if ('reason' in r) fail(`"${n}": ${r.reason}`);
       return { ecosystem: 'pypi', name: r.name, ...(r.version ? { version: r.version } : {}) };
     }
-    const r = parseNpmSpec(n);
+    const r = eco.id === 'npm' ? parseNpmSpec(n) : parseGemSpec(n);
     if ('reason' in r) fail(`"${n}": ${r.reason}`);
-    return { ecosystem: 'npm', name: r.name, ...(r.version ? { version: r.version } : {}) };
+    return { ecosystem: eco.id, name: r.name, ...(r.version ? { version: r.version } : {}) };
   });
 
   if (!flags.json) progress(`Checking ${refs.length === 1 ? refs[0]!.name : `${refs.length} packages`}...`);

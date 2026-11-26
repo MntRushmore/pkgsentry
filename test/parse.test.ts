@@ -144,6 +144,29 @@ describe('python family', () => {
     expect(pkgs(cmd)).toEqual(expected);
   });
 
+  it.each([
+    ['gem install rails', ['rubygems:rails']],
+    ['gem install rake:13.0.6', ['rubygems:rake@13.0.6']],
+    ['gem install -v 13.0.6 rake', ['rubygems:rake']],
+    ['sudo gem install bundler --no-document', ['rubygems:bundler']],
+    ['bundle add sidekiq --group workers', ['rubygems:sidekiq']],
+    ['bundle install', []],
+    ['gem list', []],
+  ])('%s', (cmd, expected) => {
+    expect(pkgs(cmd)).toEqual(expected);
+  });
+
+  it.each([
+    ['cargo add serde', ['cargo:serde']],
+    ['cargo add serde@1.0.200 tokio', ['cargo:serde@1.0.200', 'cargo:tokio']],
+    ['cargo install ripgrep', ['cargo:ripgrep']],
+    ['cargo add --git https://github.com/x/y.git thing', ['cargo:thing']],
+    ['cargo add --path ../local', []],
+    ['cargo build', []],
+  ])('%s', (cmd, expected) => {
+    expect(pkgs(cmd)).toEqual(expected);
+  });
+
   it('reads requirements files, including nested ones, relative to cd', () => {
     const dir = mkdtempSync(path.join(os.tmpdir(), 'pkgsentry-req-'));
     mkdirSync(path.join(dir, 'svc'));
